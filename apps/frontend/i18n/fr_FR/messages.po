@@ -1,0 +1,2139 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2009-08-07 11:24+0100\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"Last-Translator: Arnaud HUMILIER <arnaud.humilier@islog.eu>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+msgid "Time management and physical access"
+msgstr "Gestion du temps et contrôle d'accès physique"
+
+msgid "<strong>Tempo's&copy;</strong> is a product of the <strong>ISLOG&copy;</strong> company - 2005-%year%"
+msgstr "<strong>Tempo's</strong> est un produit de la société <strong>ISLOG&copy;</strong> - 2005-%year%"
+
+msgid "Edit group"
+msgstr "Modifier le groupe"
+
+msgid "Go back to %index_page%."
+msgstr "Retourner à %index_page%."
+
+msgid "the group list page"
+msgstr "la liste des groupes"
+
+msgid "Javascript disabled"
+msgstr "Javascript désactivé"
+
+msgid "JavaScript is disabled. Deletion and filter functions disabled due to security measures."
+msgstr "JavaScript est désactivé. Les fonctions de suppression et de filtre sont désactivées pour raisons de sécurité."
+
+msgid "Cancel"
+msgstr "Annuler"
+
+msgid "Delete"
+msgstr "Supprimer"
+
+msgid "Are you sure ?"
+msgstr "Etes-vous sur ?"
+
+msgid "New group"
+msgstr "Nouveau groupe"
+
+msgid "Groups"
+msgstr "Groupes"
+
+msgid "[0]No groups in the database.|[1]There is actually one group in the database.|(1,+Inf]There is actually %count% groups in the database."
+msgstr "[0]Aucun groupe dans la base de données.|[1]Il y a un groupe dans la base de données.|(1,+Inf]Il y a actuellement %count% groupes dans la base de données."
+
+msgid "Name"
+msgstr "Nom"
+
+msgid "Activities"
+msgstr "Activités"
+
+msgid "Leader(s)"
+msgstr "Responsable(s)"
+
+msgid "Member(s)"
+msgstr "Membre(s)"
+
+msgid "Members count"
+msgstr "Nombre de membres"
+
+msgid "Actions"
+msgstr "Actions"
+
+msgid "No entries"
+msgstr "Pas d'entrées"
+
+msgid "No leader(s)"
+msgstr "Pas de chef(s)"
+
+msgid "Edit subscriptions"
+msgstr "Modifier les inscriptions"
+
+msgid "You may also %add_link%."
+msgstr "Vous pouvez aussi %add_link%."
+
+msgid "Add users to an existing group"
+msgstr "Ajouter les utilisateurs à un groupe existant"
+
+msgid "the user list page"
+msgstr "la liste des utilisateurs"
+
+msgid "Edit user"
+msgstr "Modifier l'utilisateur"
+
+msgid "User created"
+msgstr "Utilisateur créé"
+
+msgid "User was created successfully."
+msgstr "L'utilisateur a été créé avec succès."
+
+msgid "Create a new one."
+msgstr "Créer un nouvel utilisateur."
+
+msgid "Visitor list"
+msgstr "Liste des visiteurs"
+
+msgid "No visitor request pending."
+msgstr "Pas de demande de visiteur en attente."
+
+msgid " %link_prev%"
+msgstr "%link_prev%"
+
+msgid "See previous"
+msgstr "Précédent"
+
+msgid " %link_next%"
+msgstr "%link_next%"
+
+msgid "See next"
+msgstr "Suivant"
+
+msgid "User import"
+msgstr "Importation d'utilisateurs"
+
+msgid "Importation result"
+msgstr "Résultat de l'importation"
+
+msgid "%count% user(s) imported."
+msgstr "%count% utilisateur(s) importé(s)."
+
+msgid "You can also %user_index_link%."
+msgstr "Vous pouvez aussi %user_index_link%."
+
+msgid "go back to the user page"
+msgstr "retourner à la liste des utilisateurs"
+
+msgid "JavaScript is disabled. Deletion function disabled due to security measures."
+msgstr "JavaScript est désactivé. Les fonctions de suppression sont désactivées pour des raisons de sécurité."
+
+msgid "Save"
+msgstr "Sauvegarder"
+
+msgid "Leaders"
+msgstr "Responsables"
+
+msgid "Members"
+msgstr "Membres"
+
+msgid "Visitors"
+msgstr "Visiteurs"
+
+msgid "Import"
+msgstr "Importation"
+
+msgid "New user"
+msgstr "Nouvel utilisateur"
+
+msgid "User search"
+msgstr "Recherche d'utilisateur"
+
+msgid "Show results"
+msgstr "Afficher les résultats"
+
+msgid "Search member"
+msgstr "Rechercher un membre"
+
+msgid "Members list"
+msgstr "Liste des membres"
+
+msgid "[0]No users match.|[1]There is one matching user.|(1,+Inf]There is actually %count% matching users."
+msgstr "[0]Aucun utilisateur ne correspond à la recherche.[1]Il y a un utilisateur correspondant.|(1,+Inf]Il y a %count% utilisateurs correspondants."
+
+msgid "Show/Hide filters"
+msgstr "Afficher/Cacher les filtres"
+
+msgid "You can also %home_link%."
+msgstr "Vous pouvez aussi %home_link%."
+
+msgid "[0]No users in the database.|[1]There is actually one user in the database.|(1,+Inf]There is actually %count% users in the database."
+msgstr "[0]Aucun utilisateur dans la base de données.[1]Il y a un utilisateur dans la base de données.|(1,+Inf]Il y a %count% utilisateurs dans la base de données."
+
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+msgid "Card number"
+msgstr "Numéro de carte"
+
+msgid "Minimum birth date"
+msgstr "Date de naissance minimum"
+
+msgid "Maximum birth date"
+msgstr "Date de naissance maximum"
+
+msgid "Subscriptions"
+msgstr "Inscriptions"
+
+msgid "activate"
+msgstr "activer"
+
+msgid "No active subscription"
+msgstr "Pas d'inscription active"
+
+msgid "Group leader"
+msgstr "Responsable de groupe"
+
+msgid "No groups"
+msgstr "Pas de groupes"
+
+msgid "Accept"
+msgstr "Accepter"
+
+msgid "Edit zone"
+msgstr "Modifier la zone"
+
+msgid "the zone list page"
+msgstr "la liste des zones"
+
+msgid "Root"
+msgstr "Racine"
+
+msgid "Zones"
+msgstr "Zones"
+
+msgid "Rooms"
+msgstr "Salles"
+
+msgid "New zone"
+msgstr "Nouvelle zone"
+
+msgid "Move to the parent zone"
+msgstr "Déplacer à la zone parente"
+
+msgid "Add a sub-zone"
+msgstr "Ajouter une sous-zone"
+
+msgid "Delete zone"
+msgstr "Supprimer la zone"
+
+msgid "Zone list"
+msgstr "Liste des zones"
+
+msgid "JavaScript is disabled. Deletion and move functions disabled due to security measures."
+msgstr "JavaScript est désactivé. Les fonctions de suppression et de déplacement sont désactivées pour des raisons de sécurité."
+
+msgid "[0]No zones in the database.|[1]There is actually one zone in the database.|(1,+Inf]There is actually %count% zones in the database."
+msgstr "[0]Pas de zone dans la base de données.[1]Il y a une zone dans la base de données.|(1,+Inf]Il y a %count% zones dans la base de données."
+
+msgid "Sub-zones"
+msgstr "Sous-zones"
+
+msgid "Add a room"
+msgstr "Ajouter une salle"
+
+msgid "No rooms in this zone."
+msgstr "Pas de salles dans cette zone."
+
+msgid "Report"
+msgstr "Rapport"
+
+msgid "Reporting"
+msgstr "Rapports"
+
+msgid "Usage report from %s to %s"
+msgstr "Rapport d'utilisation du %s au %s"
+
+msgid "Show reporting"
+msgstr "Afficher le rapport"
+
+msgid "No reservation match"
+msgstr "Aucune réservation trouvée"
+
+msgid "No reservation match the specified parameters."
+msgstr "Aucune réservation ne correspond aux paramètres de recherche."
+
+msgid "%count% reservation(s) match the specified parameters. Click %clear_link% to clear search results."
+msgstr "%count% réservation(s) correspondent aux paramètres spécifiés. Cliquez %clear_link% pour remettre à zéro les résultats de recherche."
+
+msgid "Click %clear_link% to clear search results."
+msgstr "Cliquez %clear_link% pour remettre à zéro les résultats de recherche."
+
+msgid "here"
+msgstr "ici"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "User"
+msgstr "Utilisateur"
+
+msgid "Activity"
+msgstr "Activité"
+
+msgid "Duration"
+msgstr "Durée"
+
+msgid "Room"
+msgstr "Salle"
+
+msgid "Reason"
+msgstr "Raison"
+
+msgid "Comment"
+msgstr "Commentaire"
+
+msgid "Group"
+msgstr "Groupe"
+
+msgid "Guests count"
+msgstr "Nombre d'invités"
+
+msgid "Status"
+msgstr "Statut"
+
+msgid "%duration% minute(s)"
+msgstr "%duration% minute(s)"
+
+msgid "No reason"
+msgstr "Pas de raison"
+
+msgid "No group"
+msgstr "Pas de groupe"
+
+msgid "Physical Access Controller reports error !"
+msgstr "Le contrôle d'accès physique reporte une erreur !"
+
+msgid "Forgotten !"
+msgstr "Oubliée !"
+
+msgid "Ok"
+msgstr "Ok"
+
+msgid "Reservation not ended yet !"
+msgstr "La réservation n'est pas encore terminée !"
+
+msgid "Edit card"
+msgstr "Modifier la carte"
+
+msgid "Card created"
+msgstr "Carte créée"
+
+msgid "Card was created successfully."
+msgstr "La carte a été créée avec succès"
+
+msgid "the card list page"
+msgstr "la liste des cartes"
+
+msgid "Time cards"
+msgstr "Cartes de temps"
+
+msgid "New card"
+msgstr "Nouvelle carte"
+
+msgid "Card List"
+msgstr "Liste des cartes"
+
+msgid "Search"
+msgstr "Recherche"
+
+msgid "No card matches the specified pattern \"%pattern%\"."
+msgstr "Aucune carte ne correspond au schéma de recherche &laquo;&nbsp;%pattern%&nbsp;&raquo;."
+
+msgid "[1]There is one card of %count% matching the specified card number: \"%pattern%\"|(1,+Inf]There are %searchCount% cards of %count% matching the specified card number: \"%pattern%\""
+msgstr "[1]Il y a une carte sur %count% qui correspond aux paramètres de recherche&nbsp;: &laquo;&nbsp;%pattern%&nbsp;&raquo;"
+
+msgid "[0]No cards in the database.|[1]There is actually one card in the database.|(1,+Inf]There is actually %count% cards in the database."
+msgstr "[0]Pas de carte dans la base de données.[1]Il y a une carte dans la base de données.|(1,+Inf]Il y a %count% cartes dans la base de données."
+
+msgid "Search for a particular card: "
+msgstr "Rechercher une carte particulière&nbsp;: "
+
+msgid ": "
+msgstr "&nbsp;: "
+
+msgid "Pin code"
+msgstr "Code PIN"
+
+msgid "Owner"
+msgstr "Propriétaire"
+
+msgid "Entry"
+msgstr "Entrée"
+
+msgid "Entries"
+msgstr "Entrées"
+
+msgid "New entry"
+msgstr "Nouvelle entrée"
+
+msgid "Edit entry"
+msgstr "Éditer l'entrée"
+
+msgid "the entries list page"
+msgstr "la liste des entrées"
+
+msgid "Features"
+msgstr "Caractéristiques"
+
+msgid "[0]No entries in the database.|[1]There is actually one entry in the database.|(1,+Inf]There is actually %count% entries in the database."
+msgstr "[0]Pas d'entrées dans la base de données.[1]Il y a une entrée dans la base de données.|(1,+Inf]Il y a %count% entrées dans la base de données."
+
+msgid "add a new entry"
+msgstr "ajouter une nouvelle entrée"
+
+msgid "Color"
+msgstr "Couleur"
+
+msgid "Minimum occupation"
+msgstr "Occupation minimum"
+
+msgid "Maximum occupation"
+msgstr "Occupation maximum"
+
+msgid "Minimum delay"
+msgstr "Délai minimum"
+
+msgid "Reservation reasons"
+msgstr "Raisons des réservations"
+
+msgid "[0]No delay|[1]1 minute|(1,+Inf]%delay% minutes"
+msgstr "[0]Aucun délai|[1]1 minute|(1,+Inf]%delay% minutes"
+
+msgid "Edit reasons"
+msgstr "Modifier les raisons"
+
+msgid "Add reason"
+msgstr "Ajouter une raison"
+
+msgid "No reasons."
+msgstr "Pas de raisons."
+
+msgid "Edit subscription for %user_name%"
+msgstr "Modifier les inscriptions pour %user_name%"
+
+msgid "the subscription list page"
+msgstr "la liste des inscriptions"
+
+msgid "Edit subscription for card #%card_number%"
+msgstr "Modifier les inscriptions pour la carte #%card_number%"
+
+msgid "Edit subscription for users of %usergroup_name%"
+msgstr "Modifier les inscriptions pour les utilisateurs du groupe %usergroup_name%"
+
+msgid "the user groups list page"
+msgstr "la liste des groupes"
+
+msgid "New subscription for %user_name%"
+msgstr "Nouvelle inscription pour %user_name%"
+
+msgid "New subscription for card #%card_number%"
+msgstr "Nouvelle inscription pour la carte #%card_number%"
+
+msgid "Subscription list for \"%user_name%\""
+msgstr "Liste des inscriptions pour &laquo;&nbsp;%user_name%&nbsp;&raquo;"
+
+msgid "Subscription list for card #%card_number%"
+msgstr "Liste des inscriptions pour la carte #%card_number%"
+
+msgid "You can %user_link%."
+msgstr "Vous pouvez %user_link%."
+
+msgid "go back to the users page"
+msgstr "retourner à la liste des utilisateurs"
+
+msgid "You can %card_link%."
+msgstr "Vous pouvez %card_link%"
+
+msgid "go back to the cards page"
+msgstr "retourner à la liste des cartes"
+
+msgid "[0]No subscriptions.|[1]There is actually one subscription.|(1,+Inf]There is actually %count% subscriptions."
+msgstr "[0]Pas d'inscription.[1]Il y a une inscription.|(1,+Inf]Il y a %count% inscriptions."
+
+msgid "Zone"
+msgstr "Zone"
+
+msgid "Start"
+msgstr "Début"
+
+msgid "Stop"
+msgstr "Fin"
+
+msgid "Max. credits (hours)"
+msgstr "Crédits max. (heures)"
+
+msgid "Remaining credits (hours)"
+msgstr "Crédits restants (heures)"
+
+msgid "Days in advance"
+msgstr "Jours à l'avance"
+
+msgid "At the very beginning !"
+msgstr "Au début des temps !"
+
+msgid "Never stops"
+msgstr "Ne s'arrête jamais"
+
+msgid "Unlimited"
+msgstr "Illimité"
+
+msgid "add a new subscription"
+msgstr "ajouter une nouvelle inscription"
+
+msgid "See previous %count%"
+msgstr "Voir la/les %count% entrée(s) précédente(s)"
+
+msgid "See first %count%"
+msgstr "Voir la/les %count% première(s) entrée(s)"
+
+msgid "See next %count%"
+msgstr "Voir la/les %count% entrée(s) suivante(s)"
+
+msgid "See last %count%"
+msgstr "Voir la/les %count% dernière(s) entrée(s)"
+
+msgid "Select page: "
+msgstr "Choisir la page&nbsp;:"
+
+msgid "Edit reason for %activity_name%"
+msgstr "Modifier les raisons pour %activity_name%"
+
+msgid "the reason list page"
+msgstr "la liste des raisons"
+
+msgid "New reason for %activity_name%"
+msgstr "Nouvelle raison pour %activity_name%"
+
+msgid "Reservation reasons for \"%activity_name%\""
+msgstr "Raisons pour &laquo;&nbsp;%activity_name%&nbsp;&raquo;"
+
+msgid "You can %activity_link%."
+msgstr "Vous pouvez %activity_link%."
+
+msgid "go back to the entries page"
+msgstr "retourner à la liste des entrées"
+
+msgid "add a new reason"
+msgstr "ajouter une nouvelle raison"
+
+msgid "Delete reason"
+msgstr "Supprimer la raison"
+
+msgid "Edit Room"
+msgstr "Modifier la salle"
+
+msgid "the room list page"
+msgstr "la liste des salles"
+
+msgid "New Room"
+msgstr "Nouvelle salle"
+
+msgid "Room search"
+msgstr "Recherche de salle"
+
+msgid "You can also %room_index_link%."
+msgstr "Vous pouvez aussi %room_index_link%."
+
+msgid "go back to the room page"
+msgstr "retourner à la liste des salles"
+
+msgid "Search room"
+msgstr "Rechercher une salle"
+
+msgid "Room list"
+msgstr "Liste des salles"
+
+msgid "[0]No rooms match.|[1]There is one matching room.|(1,+Inf]There is actually %count% matching rooms."
+msgstr "[0]Aucune salle ne correspond aux critères de recherche.|[1]Il y a une salle correspondante|(1,+Inf]Il y a %count% salles correspondante."
+
+msgid "You can also %clear_filter_link%."
+msgstr "Vous pouvez aussi %clear_filter_link%."
+
+msgid "[0]No rooms in the database.|[1]There is actually one room in the database.|(1,+Inf]There is actually %count% rooms in the database."
+msgstr "[0]Pas de salle dans la base de données.[1]Il y a une salle dans la base de données.|(1,+Inf]Il y a %count% salles dans la base de données."
+
+msgid "If you want a better view on room organization, you can go to %zone_link%."
+msgstr "Si vous désirez une meilleure vue sur l'organisation des salles, vous pouvez visualiser %zone_link%."
+
+msgid "You can also %search_link%."
+msgstr "Vous pouvez aussi %search_link%."
+
+msgid "JavaScript is disabled. Status change functions disabled due to security measures."
+msgstr "JavaScript est désactivé. Fonctions de changement de statut désactivées pour raison de sécurité."
+
+msgid "add a new room"
+msgstr "ajouter une nouvelle salle"
+
+msgid "Capacity"
+msgstr "Capacité"
+
+msgid "Address"
+msgstr "Adresse"
+
+msgid "Opening time"
+msgstr "Heures d'ouverture"
+
+msgid "Closing time"
+msgstr "Périodes de fermeture"
+
+msgid "No capacity specified"
+msgstr "Pas de capacité définie"
+
+msgid "Edit features"
+msgstr "Modifier les caractéristiques"
+
+msgid "No feature values"
+msgstr "Pas de caractéristiques"
+
+msgid "Edit opening time"
+msgstr "Modifier les heures d'ouverture"
+
+msgid "%hours% hour(s) per week."
+msgstr "%hours% heure(s) par semaine"
+
+msgid "No opening time !"
+msgstr "Pas d'heures d'ouverture !"
+
+msgid "Edit closing time"
+msgstr "Modifier les périodes de fermeture"
+
+msgid "%count% closing time(s)."
+msgstr "%count% période(s) de fermeture."
+
+msgid "No closing time."
+msgstr "Pas de période de fermeture."
+
+msgid "Edit \"%room_name%\" features"
+msgstr "Modifier les caractéristiques de la salle %room_name%"
+
+msgid "Edit value"
+msgstr "Modifier la valeur"
+
+msgid "the value list page"
+msgstr "la liste des valeurs"
+
+msgid "New value"
+msgstr "Nouvelle valeur"
+
+msgid "Values for \"%feature_name%\""
+msgstr "Valeurs pour &laquo;&nbsp;%feature_name%&nbsp;&raquo;"
+
+msgid "Go back to the features list."
+msgstr "Retourner à la liste des caractéristiques."
+
+msgid "add a new value"
+msgstr "ajouter une nouvelle valeur"
+
+msgid "Value"
+msgstr "Valeur"
+
+msgid "Edit"
+msgstr "Modifier"
+
+msgid "View message"
+msgstr "Voir le message"
+
+msgid "Go back to %message_link%."
+msgstr "Retourner à %message_link%."
+
+msgid "the messages list"
+msgstr "la liste des messages"
+
+msgid "From"
+msgstr "De"
+
+msgid "At"
+msgstr "Le"
+
+msgid "Subject"
+msgstr "Sujet"
+
+msgid "Send message"
+msgstr "Envoyer le message"
+
+msgid "My messages"
+msgstr "Mes messages"
+
+msgid "[0]No unread messages.|[1]You have one unread message in your mailbox.|(1,+Inf]You have %unread_count% unread messages in your mailbox."
+msgstr "[0]Pas de nouveau message.|[1]Vous avez un nouveau message.|(1,+Inf]Vous avez %count% nouveaux messages."
+
+msgid "Received/Send at"
+msgstr "Reçu/Envoyé le"
+
+msgid "Reply"
+msgstr "Répondre"
+
+msgid "Reply to message"
+msgstr "Répondre"
+
+msgid "the original message"
+msgstr "le message original"
+
+msgid "Send failed"
+msgstr "L'envoi a échoué"
+
+msgid "The server failed to send the message. This might be a temporary error."
+msgstr "Le serveur n'a pas réussi à envoyer le message. Cela peut être une erreur temporaire."
+
+msgid "Please contact your administrator is the problem occurs again."
+msgstr "Veuillez contacter votre administrateur si le problème survient à nouveau."
+
+msgid "Edit day period for %room_name%"
+msgstr "Modifier les heures d'ouverture pour %room_name%"
+
+msgid "the opening time page"
+msgstr "la page des heures d'ouverture"
+
+msgid "New day period for %room_name%"
+msgstr "Nouvelle période horaire pour %room_name%"
+
+msgid "Opening time for \"%room_name%\""
+msgstr "Périodes d'ouverture pour la salle %room_name%"
+
+msgid "You can %room_link%."
+msgstr "Vous pouvez %room_link%"
+
+msgid "go back to the rooms page"
+msgstr "retourner à la liste des salles"
+
+msgid "Copy periods from another room: "
+msgstr "Copier les heures d'ouverture depuis une autre salle"
+
+msgid "Copy"
+msgstr "Copier"
+
+msgid "You may also %clear_link%."
+msgstr "Vous pouvez aussi %clear_link%"
+
+msgid "Clear the periods"
+msgstr "Effacer les périodes d'ouverture"
+
+msgid "add a new period"
+msgstr "ajouter une nouvelle période"
+
+msgid "Delete period"
+msgstr "Supprimer"
+
+msgid "Edit period"
+msgstr "Modifier"
+
+msgid "Copy every available day"
+msgstr "Répéter tous les jours"
+
+msgid "Repeat every day"
+msgstr "Répéter tous les jours"
+
+msgid "Add a new period"
+msgstr "Ajouter une nouvelle période"
+
+msgid "Go back to %room_link%."
+msgstr "Retourner à %room_link%."
+
+msgid "the room planning page"
+msgstr "la page de planning de la salle"
+
+msgid "Edit reservation for %activity_name% in %room_name%"
+msgstr "Modifier la réservation pour l'entrée %activity_name%  dans la salle %room_name%"
+
+msgid "Go back to %room_page%."
+msgstr "Retourner à %room_page%."
+
+msgid "Repeat reservation"
+msgstr "Répéter la réservation"
+
+msgid "Here are the reservation results: "
+msgstr "Voici les résultats de la réservation périodique&nbsp;:"
+
+msgid "Go to date..."
+msgstr "Aller à la date..."
+
+msgid "Reservation successful"
+msgstr "La réservation a réussi"
+
+msgid "Unable to book: "
+msgstr "Impossible de réserver&nbsp;:"
+
+msgid "New reservation for %activity_name% in %room_name%"
+msgstr "Nouvelle réservation pour l'entrée %activity_name% dans la salle %room_name%"
+
+msgid "Previous week"
+msgstr "Semaine précédente"
+
+msgid "Next week"
+msgstr "Semaine suivante"
+
+msgid "Week #%week_number% - %year%"
+msgstr "Semaine #%week_number% - %year%"
+
+msgid "%week_day% - %date%"
+msgstr "%week_day% - %date%"
+
+msgid "Delete reservation"
+msgstr "Supprimer la réservation"
+
+msgid "Edit reservation"
+msgstr "Modifier la réservation"
+
+msgid "View reservation"
+msgstr "Voir la réservation"
+
+msgid "Reserved by: "
+msgstr "Réservé par&nbsp;:"
+
+msgid "Reserved for: "
+msgstr "Réservé pour&nbsp;:"
+
+msgid "Reason: "
+msgstr "Raison&nbsp;: "
+
+msgid "Time: "
+msgstr "Heures&nbsp;:"
+
+msgid "%start_time%-%stop_time%"
+msgstr "%start_time%-%stop_time%"
+
+msgid "Duration: "
+msgstr "Durée&nbsp;:"
+
+msgid "%duration% hour(s)"
+msgstr "%duration% heure(s)"
+
+msgid "Status: "
+msgstr "Statut&nbsp;:"
+
+msgid "Idle"
+msgstr "En attente"
+
+msgid "Synchronized with physical access"
+msgstr "Synchronisé avec le contrôle d'accès physique"
+
+msgid "Blocked: user(s) can access room"
+msgstr "Bloqué&nbsp;: les utilisateurs peuvent accéder à la salle"
+
+msgid "Physical access reports error !"
+msgstr "Le contrôle d'accès physique reporte une erreur !"
+
+msgid "Add a new reservation"
+msgstr "Ajouter une nouvelle réservation"
+
+msgid "Planning for \"%room_name%\""
+msgstr "Emploi du temps pour la salle %room_name%"
+
+msgid "Deletion error"
+msgstr "Erreur de suppression"
+
+msgid "Unable to delete the reservation. Operation denied."
+msgstr "Impossible de supprimer la réservation. Opération refusée."
+
+msgid "add a new reservation"
+msgstr "ajouter une nouvelle réservation"
+
+msgid "Repeat reservation for %activity_name% in %room_name%"
+msgstr "Répéter la réservation pour l'entrée %activity_name% dans la salle %room_name%"
+
+msgid "Card authentication"
+msgstr "Connexion par carte"
+
+msgid "Authentication error"
+msgstr "Erreur d'authentification"
+
+msgid "Please check your card number and pin code."
+msgstr "Veuillez vérifier votre numéro de carte et votre code PIN"
+
+msgid "Authenticate"
+msgstr "S'authentifier"
+
+msgid "You can also %login_link%."
+msgstr "Vous pouvez aussi %login_link%."
+
+msgid "login with a username"
+msgstr "vous connecter avec un identifiant"
+
+msgid "Authentication required"
+msgstr "Authentification requise"
+
+msgid "The page you requested needs an authentication."
+msgstr "La page demandée nécessite une authentification."
+
+msgid "You can log in using %login_page%."
+msgstr "Vous pouvez vous connecter en allant sur %login_page%."
+
+msgid "the login page"
+msgstr "la page d'authentification"
+
+msgid "Insufficient credentials"
+msgstr "Permissions insuffisantes"
+
+msgid "You do not have the required permissions to access this page."
+msgstr "Vous n'avez pas les permissions requises pour accéder à la page."
+
+msgid "You may log in with a different account using %logout_page%."
+msgstr "Vous pouvez vous connecter avec un compte différent en vous rendant sur %logout_page%."
+
+msgid "Or you can go back to %previous_page%."
+msgstr "Ou vous pouvez retourner à %previous_page%."
+
+msgid "the previous page"
+msgstr "la page précédente"
+
+msgid "Welcome %name%: "
+msgstr "Bienvenue %name%&nbsp;:"
+
+msgid "Welcome: "
+msgstr "Bienvenue&nbsp;:"
+
+msgid "Authentication"
+msgstr "Authentification"
+
+msgid "Please check your username and password."
+msgstr "Veuillez vérifier votre identifiant/mot de passe."
+
+msgid "You do not have an account ? %register_link%"
+msgstr "Vous n'avez pas de compte ? %register_link%"
+
+msgid "Register !"
+msgstr "Inscrivez-vous !"
+
+msgid "You can also %card_login_link%."
+msgstr "Vous pouvez aussi %card_login_link%."
+
+msgid "login with a card"
+msgstr "se connecter avec une carte"
+
+msgid "Register"
+msgstr "S'inscrire"
+
+msgid "Registration done !"
+msgstr "Inscription réussie !"
+
+msgid "Congratulations ! You have successfully registered to the Tempo's system."
+msgstr "Félicitations ! Vous vous êtes correctement enregistré sur le système Tempo's."
+
+msgid "Note: You may not be able to login until an administrator validates your appliance."
+msgstr "Note&nbsp;: Vous ne pourrez vous connecter que lorsqu'un administrateur aura validé votre demande."
+
+msgid "You can now %link_login%."
+msgstr "Vous pouvez %link_login%."
+
+msgid "go back to the login page"
+msgstr "retourner à la page d'authentification"
+
+msgid "Registration"
+msgstr "Inscription"
+
+msgid "The following informations are required to register an new account."
+msgstr "Les données suivantes sont nécessaires pour vous inscrire."
+
+msgid "Registration information"
+msgstr "Informations d'inscription"
+
+msgid "Your account will only be usable when validated by an administrator."
+msgstr "Votre compte ne sera utilisable que lorsque validé par un administrateur."
+
+msgid "Don't forget to fill in your email address to receive information about your registration."
+msgstr "N'oubliez pas de renseigner votre adresse de courriel pour recevoir vos informations d'inscription."
+
+msgid "logout"
+msgstr "se déconnecter"
+
+msgid "login"
+msgstr "se connecter"
+
+msgid "register"
+msgstr "s'inscrire"
+
+msgid "configuration"
+msgstr "configuration"
+
+msgid "General configuration"
+msgstr "Configuration générale"
+
+msgid "Configuration updated !"
+msgstr "Configuration mise à jour !"
+
+msgid "The configuration was saved and applied."
+msgstr "La configuration a été sauvée et appliquée."
+
+msgid "Configuration error !"
+msgstr "Erreur de configuration !"
+
+msgid "There is one or more error(s) in the form."
+msgstr "Il y a au moins une erreur dans le formulaire."
+
+msgid "Unable to save the configuration."
+msgstr "Impossible de sauvegarder la configuration."
+
+msgid "Be careful !"
+msgstr "Soyez prudent !"
+
+msgid "Be sure you know what you're doing before changing a value in this section ! Misconfiguration could lead to a definitive loss of access."
+msgstr "Soyez sûr de ce que vous faites en modifiant les valeurs de cette page. Une erreur de configuration pourrait conduire à une perte irrémédiable des accès !"
+
+msgid "Here is the general configuration for your Tempo's system."
+msgstr "Voici la configuration générale de votre système Tempo's."
+
+msgid "Apply &amp; Save"
+msgstr "Appliquer et sauver"
+
+msgid "Edit Feature"
+msgstr "Modifier la caractéristique"
+
+msgid "the feature list page"
+msgstr "la liste des caractéristiques"
+
+msgid "New Feature"
+msgstr "Nouvelle caractéristique"
+
+msgid "[0]No features in the database.|[1]There is actually one feature in the database.|(1,+Inf]There is actually %count% features in the database."
+msgstr "[0]Pas de caractéristique dans la base de données.|[1]Il y a une caractéristique dans la base de données.|(1,+Inf]Il y a %count% caractéristiques dans la base de données."
+
+msgid "add a new feature"
+msgstr "ajouter une nouvelle caractéristique"
+
+msgid "Exclusive"
+msgstr "Exclusive"
+
+msgid "Values"
+msgstr "Valeurs"
+
+msgid "Yes"
+msgstr "Oui"
+
+msgid "No"
+msgstr "Non"
+
+msgid "Any"
+msgstr "Peu importe"
+
+msgid "Edit values"
+msgstr "Modifier les valeurs"
+
+msgid "Add value"
+msgstr "Ajouter une valeur"
+
+msgid "No values"
+msgstr "Pas de valeurs"
+
+msgid "Home"
+msgstr "Accueil"
+
+msgid "Users"
+msgstr "Utilisateurs"
+
+msgid "Cards"
+msgstr "Cartes"
+
+msgid "Locations"
+msgstr "Lieux"
+
+msgid "You can also %zone_index_link%."
+msgstr "Vous pouvez aussi %zone_index_link%."
+
+msgid "go back to the zone page"
+msgstr "retourner à la liste des zones"
+
+msgid "Previous day"
+msgstr "Jour précédent"
+
+msgid "Next day"
+msgstr "Jour suivant"
+
+msgid "%day_name%"
+msgstr "%day_name%"
+
+msgid "Complete"
+msgstr "Complet"
+
+msgid "Other reservation"
+msgstr "Autre réservation"
+
+msgid "Add a reservation"
+msgstr "Ajouter une réservation"
+
+msgid "Past"
+msgstr "Passé"
+
+msgid "Too far in the future"
+msgstr "Trop loin dans le futur"
+
+msgid "Legend"
+msgstr "Légende"
+
+msgid "Available"
+msgstr "Disponible"
+
+msgid "In the past"
+msgstr "Dans le passé"
+
+msgid "No sub menu."
+msgstr "Pas de sous-menu."
+
+msgid "Has some reservations, but still available"
+msgstr "Possède quelques réservations, mais toujours disponible"
+
+msgid "Room selection for booking \"%activity_name%\""
+msgstr "Choix de la salle pour la réservation de &laquo;&nbsp;%activity_name%&nbsp;&raquo;"
+
+msgid "Available rooms for \"%user_name%\""
+msgstr "Salles disponibles pour &laquo;&nbsp;%user_name%&nbsp;&raquo;"
+
+msgid "Your rooms"
+msgstr "Vos salles"
+
+msgid "No rooms found that match the specified criterias."
+msgstr "Pas de salle trouvée qui corresponde aux critères de recherche"
+
+msgid "Select"
+msgstr "Choisir"
+
+msgid "Room planning for \"%activity_name%\""
+msgstr "Comparaison des salles pour &laquo;&nbsp;%activity_name%&nbsp;&raquo;"
+
+msgid "%count% room(s) displayed: "
+msgstr "%count% salle(s) affichées&nbsp;:"
+
+msgid "No rooms displayed."
+msgstr "Pas de salle affichée."
+
+msgid "Previous month"
+msgstr "Mois précédent"
+
+msgid "Next month"
+msgstr "Mois suivant"
+
+msgid "%month_name% - %year%"
+msgstr "%month_name% - %year%"
+
+msgid "%week_day%"
+msgstr "%week_day%"
+
+msgid "Navigation: "
+msgstr "Navigation&nbsp;:"
+
+msgid "View zones"
+msgstr "Voir les zones"
+
+msgid "View availability planning"
+msgstr "Voir la table des disponibilités"
+
+msgid "Choose an entry"
+msgstr "Choisir une entrée"
+
+msgid "Navigation"
+msgstr "Navigation"
+
+msgid "Nothing to display"
+msgstr "Rien à afficher"
+
+msgid "Edit profiles"
+msgstr "Editer les profils"
+
+msgid "My profile"
+msgstr "Mon profil"
+
+msgid "Profile updated"
+msgstr "Profil mis à jour"
+
+msgid "Profile updated successfully"
+msgstr "Profil mis à jour avec succès"
+
+msgid "Login"
+msgstr "Connexion"
+
+msgid "Start page"
+msgstr "Page d'accueil"
+
+msgid "Messages"
+msgstr "Messages"
+
+msgid "Available zones and rooms for \"%user_name%\""
+msgstr "Zones et salles pour &laquo;&nbsp;%user_name%&nbsp;&raquo;"
+
+msgid "Your zones and rooms"
+msgstr "Vos zones et salles"
+
+msgid "You can also %room_search_link%."
+msgstr "Vous pouvez aussi %room_search_link%."
+
+msgid "search a room"
+msgstr "rechercher une salle"
+
+msgid "There is no valid subscription for any zone. Please contact the person responsible for the system."
+msgstr "Aucune inscription trouvée. Veuillez contacter le responsable du système."
+
+msgid "You have no valid subscription for any zone. Please contact the person responsible for the system."
+msgstr "Aucune inscription trouvée. Veuillez contacter le responsable du système."
+
+msgid "Book for %user_name%"
+msgstr "Réserver pour %user_name%"
+
+msgid "Go back to %group_page%."
+msgstr "Retourner à %group_page%."
+
+msgid "the \"%group_name%\" group page"
+msgstr "la page du groupe &laquo;&nbsp;%group_name%&nbsp;&raquo;"
+
+msgid "Available entries"
+msgstr "Entrées disponibles"
+
+msgid "This user does not have any entry."
+msgstr "Cet utilisateur n'a aucune entrée."
+
+msgid "Availability planning for \"%activity_name%\""
+msgstr "Table des disponibilités pour l'entrée &laquo;&nbsp;%activity_name%&nbsp;&raquo;"
+
+msgid "You can also %display_week_link%."
+msgstr "Vous pouvez aussi %display_week_link%."
+
+msgid "display the week overview"
+msgstr "afficher la semaine"
+
+msgid "Display the week overview"
+msgstr "Afficher la semaine"
+
+msgid "You can also %display_month_link%."
+msgstr "Vous pouvez aussi %display_month_link%."
+
+msgid "display the month overview"
+msgstr "afficher le mois"
+
+msgid "Display the month overview"
+msgstr "Afficher le mois"
+
+msgid "No room matches the specified criterias."
+msgstr "Aucune salle ne correspond à tous les critères indiqués."
+
+msgid "Welcome to Tempo's !"
+msgstr "Bienvenue dans Tempo's !"
+
+msgid "You are currently logged-in as <strong>%user_name%</strong>. If your are not <strong>%user_name%</strong>, please click %logout_link%."
+msgstr "Vous êtes actuellement identifié en tant que <strong>%user_name%</strong>. Si vous n'êtes pas <strong>%user_name%</strong>, veuillez cliquer sur %logout_link%."
+
+msgid "this link"
+msgstr "ce lien"
+
+msgid "You are currently logged-in with the card <strong>#%card_number%</strong>. If this is not your card number, please click %logout_link%."
+msgstr "Vous êtes actuellement identifié grâce à la carte <strong>#%card_number%</strong>. Si il ne s'agit pas de votre numéro de carte, veuillez cliquer sur %logout_link%."
+
+msgid "Your entries"
+msgstr "Vos entrées"
+
+msgid "You do not have any entry."
+msgstr "Vous n'avez aucune entrée."
+
+msgid "Book for another person"
+msgstr "Réserver pour une autre personne"
+
+msgid "You may also book for people in the following group(s):"
+msgstr "Vous pouvez aussi réserver pour une personne dans le(s) groupe(s) suivant(s)&nbsp;: "
+
+msgid "%count% member(s)"
+msgstr "%count% membre(s)"
+
+msgid "Your upcoming reservations"
+msgstr "Vos réservations à venir"
+
+msgid "See reservation..."
+msgstr "Voir la réservation..."
+
+msgid "Book for another person in \"%group_name%\""
+msgstr "Réserver pour une autre personne du groupe &laquo;&nbsp;%group_name%&nbsp;&raquo;"
+
+msgid "Group members"
+msgstr "Membres du groupe"
+
+msgid "[0]No users in the group.|[1]There is actually one user in the group.|(1,+Inf]There is actually %count% users in the group."
+msgstr "[0]Aucun utilisateur dans le groupe.|[1]Il y a un utilisateur dans le groupe.|(1,+Inf]Il y a %count% utilisateurs dans le groupe."
+
+msgid "Please select the person for which you want to book a room:"
+msgstr "Veuillez choisir la personne pour laquelle vous souhaitez réserver une salle."
+
+msgid "Add booking"
+msgstr "Effectuer une réservation"
+
+msgid "User account deactivated"
+msgstr "Compte utilisateur désactivé"
+
+msgid "No entries."
+msgstr "Pas d'entrées."
+
+msgid "Edit close period for %room_name%"
+msgstr "Modifier les périodes de fermeture pour la salle %room_name%"
+
+msgid "the close period page"
+msgstr "la page des périodes de fermeture"
+
+msgid "New close period for %room_name%"
+msgstr "Nouvelle période de fermeture pour la salle %room_name%"
+
+msgid "Close periods for %room_name%"
+msgstr "Périodes de fermeture pour la salle %room_name%"
+
+msgid "[0]No close periods in the database.|[1]There is actually one close period in the database.|(1,+Inf]There is actually %count% close periods in the database."
+msgstr "[0]Pas de période de fermeture.|[1]Il y a une période de fermeture.|(1,+Inf]Il y a %count% périodes de fermeture."
+
+msgid "You may also %room_link%."
+msgstr "Vous pouvez aussi %room_link%."
+
+msgid "[1]There is one visitor request pending.|(1,+Inf]There are %count% visitor requests pending (%offset%/%count%)."
+msgstr "[1]Il y a une demande de visiteur en attente.|(1,+Inf]Il y a %count% demandes de visiteur en attente (%offset% sur %count%)."
+
+msgid "To"
+msgstr "À"
+
+msgid "Send delete warning message"
+msgstr "Envoyer un message d'avertissement de suppression"
+
+msgid "Family name"
+msgstr "Nom de famille"
+
+msgid "Surname"
+msgstr "Prénom"
+
+msgid "login with a card number"
+msgstr "vous connecter avec un numéro de carte"
+
+msgid "Password"
+msgstr "Mot de passe"
+
+msgid "Current password"
+msgstr "Mot de passe actuel"
+
+msgid "Please repeat password"
+msgstr "Veuillez répéter le mot de passe"
+
+msgid "Birthdate"
+msgstr "Date de naissance"
+
+msgid "Email address"
+msgstr "Adresse de courriel"
+
+msgid "Phone number"
+msgstr "Numéro de téléphone"
+
+msgid "Required."
+msgstr "Requis."
+
+msgid "Invalid."
+msgstr "Invalide."
+
+msgid "\"%value%\" is too long (%max_length% characters max)."
+msgstr "&laquo;&nbsp;%value%&nbsp;&raquo; est trop long (%max_length% caractères maximum)."
+
+msgid "\"%value%\" is too short (%min_length% characters min)."
+msgstr "&laquo;&nbsp;%value%&nbsp;&raquo; est trop court (%min_length% caractères minimum)."
+
+msgid "The two passwords must match."
+msgstr "Les deux mots de passe ne correspondent pas."
+
+msgid "Filter user list"
+msgstr "Filtrer la liste"
+
+msgid "Import from CSV file"
+msgstr "Importer à partir d'un fichier CSV"
+
+msgid "Add method"
+msgstr "Méthode d'ajout"
+
+msgid "File"
+msgstr "Fichier"
+
+msgid "Delimiter"
+msgstr "Délimiteur"
+
+msgid "Skip header"
+msgstr "Supprimer l'en-tête"
+
+msgid "Add"
+msgstr "Ajouter"
+
+msgid "Replace"
+msgstr "Remplacer"
+
+msgid "Groups as leader"
+msgstr "Responsable des groupes"
+
+msgid "Groups as member"
+msgstr "Membre des groupes"
+
+msgid "Is active"
+msgstr "Est actif"
+
+msgid "add a new user"
+msgstr "ajouter un nouvel utilisateur"
+
+msgid "Roles"
+msgstr "Rôles"
+
+msgid "Unlimited access"
+msgstr "Accès illimité"
+
+msgid "Minimum number of hours in advance"
+msgstr "Nombre minimum d'heures à l'avance"
+
+msgid "Maximum number of days in advance"
+msgstr "Nombre maximum de jours à l'avance"
+
+msgid "Minimum duration of reservations (minutes)"
+msgstr "Durée minimale des réservations (minutes)"
+
+msgid "Maximum duration of reservations (minutes)"
+msgstr "Durée maximale des réservations (minutes)"
+
+msgid "How many hours allowed per week (hours)"
+msgstr "Nombre d'heures maximum par semaine (heures)"
+
+msgid "add a new group"
+msgstr "ajouter un nouveau groupe"
+
+msgid "Everybody"
+msgstr "Membres et chefs"
+
+msgid "Non-members"
+msgstr "Non membres/Non chefs"
+
+msgid "Edit for"
+msgstr "Créer pour"
+
+msgid "Edition rule"
+msgstr "Règle d'édition"
+
+msgid "Fill"
+msgstr "Combler"
+
+msgid "Please copy the security code"
+msgstr "Veuillez recopier le code de sécurité"
+
+msgid "add a new card"
+msgstr "ajouter une nouvelle carte"
+
+msgid "Start date"
+msgstr "Date de départ"
+
+msgid "Stop date"
+msgstr "Date de fin"
+
+msgid "Download this report as a CSV file"
+msgstr "Télécharger ce rapport en fichier CSV"
+
+msgid "Download this report as a PDF file"
+msgstr "Télécharger ce rapport en fichier PDF"
+
+msgid "add a new root zone"
+msgstr "ajouter une nouvelle zone racine"
+
+msgid "Parent zone"
+msgstr "Zone parente"
+
+msgid "the zone view"
+msgstr "les zones"
+
+msgid "search for a specific room"
+msgstr "rechercher une salle"
+
+msgid "Minimal capacity"
+msgstr "Capacité minimale"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "Room to copy from: "
+msgstr "Copier depuis la salle&nbsp;: "
+
+msgid "add a new close period"
+msgstr "ajouter une nouvelle période de fermeture"
+
+msgid "Minimum delay (minutes)"
+msgstr "Délai minimum (minutes)"
+
+msgid "Is exclusive"
+msgstr "Est exclusif"
+
+msgid "Physical Access Controller"
+msgstr "Contrôleur d'accès physique"
+
+msgid "Physical access identifier"
+msgstr "Identifiant pour le contrôle d'accès"
+
+msgid "Network"
+msgstr "Réseau"
+
+msgid "Email"
+msgstr "Courriel"
+
+msgid "General"
+msgstr "Général"
+
+msgid "Backup"
+msgstr "Sauvegarde"
+
+msgid "Host"
+msgstr "Hôte"
+
+msgid "Service"
+msgstr "Service"
+
+msgid "RRL"
+msgstr "RRL"
+
+msgid "IPv4 type"
+msgstr "Adressage IPv4"
+
+msgid "IPv4 address"
+msgstr "Adresse IPv4"
+
+msgid "IPv4 netmask"
+msgstr "Masque de sous-réseau IPv4"
+
+msgid "IPv4 gateway"
+msgstr "Passerelle IPv4"
+
+msgid "System"
+msgstr "Système"
+
+msgid "DHCP"
+msgstr "DHCP"
+
+msgid "Static"
+msgstr "Statique"
+
+msgid "Use mail"
+msgstr "Utiliser les courriels"
+
+msgid "SMTP host"
+msgstr "Hôte SMTP"
+
+msgid "SMTP port"
+msgstr "Port SMTP"
+
+msgid "Always override from ?"
+msgstr "Toujours utiliser la valeur &laquo;&nbsp;De&nbsp;&raquo; ?"
+
+msgid "Encryption method"
+msgstr "Méthode de chiffrement"
+
+msgid "No encryption"
+msgstr "Pas de chiffrement"
+
+msgid "SSL"
+msgstr "SSL"
+
+msgid "TLS"
+msgstr "TLS"
+
+msgid "Use authentication"
+msgstr "Authentification requise"
+
+msgid "Signature"
+msgstr "Signature"
+
+msgid "Allow registration"
+msgstr "Autoriser les inscriptions"
+
+msgid "Registration granted message"
+msgstr "Message en cas d'enregistrement autorisé"
+
+msgid "Subtitle"
+msgstr "Sous-titre"
+
+msgid "Backup method"
+msgstr "Méthode de sauvegarde"
+
+msgid "No backup"
+msgstr "Pas de sauvegarde"
+
+msgid "FTP"
+msgstr "FTP"
+
+msgid "Book for an entire group"
+msgstr "Réserver au nom d'un groupe"
+
+msgid "Duration (minutes)"
+msgstr "Durée (minutes)"
+
+msgid "Date and time"
+msgstr "Date et heure"
+
+msgid "Repetition type"
+msgstr "Type de répétition"
+
+msgid "Count"
+msgstr "Nombre"
+
+msgid "Count and date"
+msgstr "Nombre et date"
+
+msgid "Stop on error"
+msgstr "Arrêter en cas d'erreur"
+
+msgid "Book until"
+msgstr "Réserver jusqu'à"
+
+msgid "Day period"
+msgstr "Période journalière"
+
+msgid "Week period"
+msgstr "Période hebdomadaire"
+
+msgid "Month period"
+msgstr "Période mensuelle"
+
+msgid "Year period"
+msgstr "Période annuelle"
+
+msgid "This zone cannot be choosen as parent zone."
+msgstr "Cette zone ne peut être choisie comme zone parente."
+
+msgid "You do not have enough credits. Remaining credits (minutes): %remaining_credit%"
+msgstr "Vous n'avez pas assez de crédit. Crédits restants (minutes) : %remaining_credit%"
+
+msgid "The specified password is incorrect"
+msgstr "Le mot de passe saisi est incorrect."
+
+msgid "Count cannot be null with the selected repetition type."
+msgstr "Le nombre ne peut pas être nul avec le type de répétition sélectionné."
+
+msgid "Until date cannot be null with the selected repetition type."
+msgstr "La date limite ne peut être nulle avec le type de répétition sélectionné."
+
+msgid "This field cannot contain <, > or & characters."
+msgstr "Ce champ ne peut contenir les caractères <, > ou &."
+
+msgid "The reservation does not fit in the timetable."
+msgstr "La réservation ne peut pas rentrer dans l'emploi du temps."
+
+msgid "No delay found ! Please contact an administrator."
+msgstr "Aucun délai trouvé ! Veuillez contacter un administrateur."
+
+msgid "No valid subscription found at this date ! Please contact an administrator."
+msgstr "Aucune inscription valide trouvée à cette date. Veuillez contacter un administrateur."
+
+msgid "You cannot book that soon. Minimum delay: %minimum_delay% minute(s)."
+msgstr "Vous ne pouvez réserver aussi tôt. Délai minimum: %minimum_delay% minute(s)."
+
+msgid "You cannot book that far in the future. Maximum delay: %maximum_delay% day(s)."
+msgstr "Vous ne pouvez réserver aussi loin. Délai maximum: %maximum_delay% jour(s)."
+
+msgid "You may not book for more than %maximum_duration% consecutive minutes."
+msgstr "Vous ne pouvez effectuer de réservation de plus de %maximum_duration% minutes consécutives."
+
+msgid "Minimum duration for a reservation is %minimum_duration% minutes."
+msgstr "La durée minimale pour une réservation est de %minimum_duration% minutes."
+
+msgid "You may only book by periods of %step% minutes."
+msgstr "Vous ne pouvez réserver que par périodes de %step% minutes."
+
+msgid "No duration found. Please contact your administrator !"
+msgstr "Aucune durée trouvée ! Veuillez contacter un administrator."
+
+msgid "An overlapping reservation exists."
+msgstr "Une réservation chevauchante existe."
+
+msgid "An overlapping period exists."
+msgstr "Une période chevauchante existe."
+
+msgid "Please supply a valid IPv4 address"
+msgstr "Veuillez saisir une adresse IPv4 valide."
+
+msgid "You may not book more than %minutes_per_week% minutes in the same week. You already have %total%."
+msgstr "Vous ne pouvez pas réserver plus de %minutes_per_week% minutes par semaine. Vous avez déjà réservé %total% minutes cette semaine."
+
+msgid "No hours per week found. Please contact your administrator !"
+msgstr "Aucune limite par semaine trouvée. Veuillez contacter votre administrateur."
+
+msgid "Insufficient people count: you have %people_count% people, at least %needed_count% needed."
+msgstr "Pas assez de monde&nbsp;: vous avez %people_count% personne(s); minimum&nbsp;: %needed_count%."
+
+msgid "Too much people: you have %people_count% people, at most %granted_count% granted."
+msgstr "Trop de monde&nbsp;: vous avez %people_count% personne(s); maximum&nbsp;: %granted_count%."
+
+msgid "You cannot specify 0 for all periods."
+msgstr "Vous ne pouvez spécifier 0 pour toutes les périodes."
+
+msgid "You cannot book in the past !"
+msgstr "Vous ne pouvez réserver dans le passé !"
+
+msgid "clear the filter"
+msgstr "effacer le filtre"
+
+msgid "You currently are on a demonstration server. The database is reset every night (at 2:00 AM, Paris/Madrid)."
+msgstr "Serveur de démonstration. La base de données est réinitialisée chaque nuit (à 2h00, Paris/Madrid)."
+
+msgid "You may login using the demonstration account: \"%s\", password: \"%s\""
+msgstr "Utilisez le compte de démonstration&nbsp;: nom d'utilisateur&nbsp;: &laquo;&nbsp;%s&nbsp;&raquo;, mot de passe&nbsp;: &laquo;&nbsp;%s&nbsp;&raquo;"
+
+msgid "demo"
+msgstr "démo"
+
+msgid "Energy actions list"
+msgstr "Liste des actions énergétiques"
+
+msgid "Energy actions"
+msgstr "Actions énergétiques"
+
+msgid "add a new action"
+msgstr "ajouter une nouvelle action"
+
+msgid "%count% minute(s)"
+msgstr "%count% minute(s)"
+
+msgid "Up delay (minutes)"
+msgstr "Délai d'allumage (minutes)"
+
+msgid "Down delay (minutes)"
+msgstr "Délai d'extinction (minutes)"
+
+msgid "Up PID"
+msgstr "PID allumage"
+
+msgid "Down PID"
+msgstr "PID extinction"
+
+msgid "Here is the list of all energy actions:"
+msgstr "Voici la liste de toutes les actions énergétiques du système&nbsp;:"
+
+msgid "No PID"
+msgstr "Pas de PID"
+
+msgid "New action"
+msgstr "Nouvelle action"
+
+msgid "Edit action"
+msgstr "Éditer l'action"
+
+msgid "the action list page"
+msgstr "la liste des actions"
+
+msgid "Energy"
+msgstr "Énergie"
+
+msgid "On"
+msgstr "Allumé"
+
+msgid "Off"
+msgstr "Éteint"
+
+msgid "Fields"
+msgstr "Champs"
+
+msgid "Occupancy"
+msgstr "Occupation"
+
+msgid "Room occupancy"
+msgstr "Occupation des salles"
+
+msgid "Day of week"
+msgstr "Jour de la semaine"
+
+msgid "Multiple reservation"
+msgstr "Réservation multiple"
+
+msgid "You already have a reservation at this date: %reservation%"
+msgstr "Vous avez déjà une réservation à cette date&nbsp;: %reservation%"
+
+msgid "Home automation controller"
+msgstr "Contrôleur domotique"
+
+msgid "KNXnet/IP host"
+msgstr "Hôte KNXnet/IP"
+
+msgid "KNXnet/IP port"
+msgstr "Port KNXnet/IP"
+
+msgid "IPX800 host"
+msgstr "Hôte IPX800"
+
+msgid "IPX800 port"
+msgstr "Port IPX800"
+
+msgid "Preset URL"
+msgstr "URL Preset"
+
+msgid "Identifier"
+msgstr "Identifiant"
+
+msgid "No identifier"
+msgstr "Pas d'identifiant"
+
+msgid "Port"
+msgstr "Port"
+
+msgid "Database"
+msgstr "Base de données"
+
+msgid "Profiles"
+msgstr "Profils"
+
+msgid "No profiles defined"
+msgstr "Aucun profil défini"
+
+msgid "Edit profile for %room_name%"
+msgstr "Éditer le profil pour la salle %room_name%"
+
+msgid "the profile list page"
+msgstr "la liste des profils"
+
+msgid "New profile for %room_name%"
+msgstr "Nouveau profil pour %room_name%"
+
+msgid "Room profiles for \"%room_name%\""
+msgstr "Profils pour la salle \"%room_name%\""
+
+msgid "add a new profile"
+msgstr "ajouter un nouveau profil"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Price"
+msgstr "Tarif"
+
+msgid "Rename"
+msgstr "Renommage"
+
+msgid "Free field 1"
+msgstr "Champ libre 1"
+
+msgid "Free field 2"
+msgstr "Champ libre 2"
+
+msgid "Free field 3"
+msgstr "Champ libre 3"
+
+msgid "Start reservation X minutes before the reservation date (minutes)"
+msgstr "Démarrer la réservation X minutes avant la date de réservation (minutes)"
+
+msgid "Activities module"
+msgstr "Module activités"
+
+msgid "Activities item"
+msgstr "Champ activités"
+
+msgid "Other member(s)"
+msgstr "Autre(s) membre(s)"
+
+msgid "Create a group with these users"
+msgstr "Créer un groupe avec ces utilisateurs"
+
+msgid "Add to an existing group"
+msgstr "Ajouter à un groupe existant"
+
+msgid "One or more rooms reserved"
+msgstr "Une ou plusieurs salles réservées"
+
+msgid "All rooms reserved"
+msgstr "Toutes les salles réservées"
+
+msgid "No room reserved"
+msgstr "Aucune salle réservée"
+
+msgid "In the future"
+msgstr "Dans le futur"
+
+msgid "Print options"
+msgstr "Options d'impression"
+
+msgid "Print"
+msgstr "Impression"
+
+msgid "Display \"Reserved by\""
+msgstr "Afficher \"Réservé par\""
+
+msgid "Display \"Reserved for\""
+msgstr "Afficher \"Réservé pour\""
+
+msgid "Display \"Reason\""
+msgstr "Afficher \"Raison\""
+
+msgid "Display \"Time\""
+msgstr "Afficher \"Temps\""
+
+msgid "Display \"Duration\""
+msgstr "Afficher \"Durée\""
+
+msgid "Display \"Custom field 1\""
+msgstr "Afficher \"Champ libre 1\""
+
+msgid "Display \"Custom field 2\""
+msgstr "Afficher \"Champ libre 2\""
+
+msgid "Display \"Custom field 3\""
+msgstr "Afficher \"Champ libre 3\""
+
+msgid "Display \"Status\""
+msgstr "Afficher \"Statut\""
+
+msgid "Display \"Physical access\""
+msgstr "Afficher \"Accès physique\""
+
+msgid "Display titles"
+msgstr "Afficher les titres"
+
+msgid "Partially occupied"
+msgstr "Partiellement occupé"
+
+msgid "Empty"
+msgstr "Vide"
+
+msgid "Unvailable"
+msgstr "Indisponible"
+
+msgid "Free"
+msgstr "Libre"
+
+msgid "Currently unvailable"
+msgstr "Non réservable actuellement"
+
+msgid "Delete reservations"
+msgstr "Supprimer des réservations"
+
+msgid "Multiple deletion"
+msgstr "Suppression multiple"
+
+msgid "Deletion type"
+msgstr "Type de suppression"
+
+msgid "ReservationDelete"
+msgstr "Suppression de réservation"
+
+msgid "All rooms"
+msgstr "Toutes les salles"
+
+msgid "Periodicity"
+msgstr "Périodicité"
+
+msgid "Dayly"
+msgstr "Journalière"
+
+msgid "Weekly"
+msgstr "Hebdomadaire"
+
+msgid "Monthly"
+msgstr "Mensuelle"
+
+msgid "Annual"
+msgstr "Annuelle"
+
+msgid "Number"
+msgstr "Nombre"
+
+msgid "All activities"
+msgstr "Toutes les activités"
+
+msgid "Start hour"
+msgstr "Heure de début"
+
+msgid "End hour"
+msgstr "Heure de fin"
+
+msgid "The stop date must be after the start date."
+msgstr "Le date de fin doit être après la date de début."
+
+msgid "The stop hour must be after the start hour."
+msgstr "L'heure de fin doit être après l'heure de début."
+
+msgid "Multiple reservations deletion"
+msgstr "Suppression multiple de réservations"
+
+msgid "Reservations deletion"
+msgstr "Suppression de réservations"
+
+msgid "%count% reservation(s) match the specified parameters. Do you really want to delete these reservations ?"
+msgstr "%count% réservation(s) correspondent aux paramètres spécifiés. Voulez-vous vraiment supprimer ces réservations ?"
+
+msgid "%count% reservation(s) match the specified parameters. Please select reservations to delete: "
+msgstr "%count% réservation(s) correspondent aux paramètres spécifiés. Veuillez sélectionner les réservations à supprimer :"
+
+msgid "Do you really want to delete these reservations ?"
+msgstr "Souhaitez-vous vraiment supprimer ces réservations ?"
+
+msgid "Delete these reservations"
+msgstr "Supprimer ces réservations"
+
+msgid "Delete selected reservations"
+msgstr "Supprimer les réservations sélectionnées"
+
+msgid "Confirm deletion"
+msgstr "Confirmation de suppression"
+
+msgid "The reservation is a part of a repetition of reservations. You can also delete reservations before and after it and part of the same repetition."
+msgstr "La réservation fait partie d'une répétition de réservations. Vous pouvez également supprimer les réservations précédentes ou suivantes de la même répétition."
+
+msgid "Deletion choices"
+msgstr "Choix de suppression"
+
+msgid "This reservation only"
+msgstr "Cette réservation seulement"
+
+msgid "This and following reservations"
+msgstr "Cette réservation et les suivantes"
+
+msgid "This and previous reservations"
+msgstr "Cette réservation et les précédentes"
+
+msgid "All reservations of the same repetition"
+msgstr "Toutes les réservations de la même répétition"
+
+msgid "Reservations of the same repetition"
+msgstr "Les réservations de la même répétition"
+
+msgid "Tools"
+msgstr "Outils"
+
+msgid "In this case, you'll be redirected to delete multiple form pre-filled."
+msgstr "Dans ce cas, vous serez redirigé vers le fomulaire de suppression multiple pré-rempli."
+
+msgid "Reservations on the slot %beginHour% - %endHour% from %beginDate% at %beginHour% to %endDate% at %endHour%"
+msgstr "Réservations concernant le créneau %beginHour% - %endHour% du %beginDate% à %beginHour% au %endDate% à %endHour%"
+
+msgid "This reservation is part of repeat reservations"
+msgstr "Cette réservation fait partie d'une répétition de réservations"
+
+msgid "Display"
+msgstr "Afficher"
+
+msgid "A summary of relevant reservations will be displayed before deleting"
+msgstr "Un récapitulatif des réservations concernées sera affiché avant la suppression"
+
+msgid "JavaScript is disabled. Filter functions disabled due to security measures."
+msgstr "JavaScript est désactivé. Les fonctions de filtre sont désactivées pour raisons de sécurité."
+
+msgid "No checkbox checked selects all rooms"
+msgstr "Aucune case cochée sélectionne toutes les salles"
+
+msgid "Clear"
+msgstr "Vider"
+
+msgid "Reservations on the slot %beginHour% - %endHour%"
+msgstr "Réservations concernant le créneau %beginHour% - %endHour%"
+
+msgid "From %beginDate% at %beginHour% to %endDate% at %endHour%"
+msgstr "Du %beginDate% à %beginHour% au %endDate% à %endHour%"
+
+msgid "From %beginDate% to %endDate%"
+msgstr "Du %beginDate% au %endDate%"
+
+msgid "Reservation deletion"
+msgstr "Suppression de réservation"
+
+msgid "Here are the deleted reservations: "
+msgstr "Voici les réservations supprimées :"
+
+msgid "Deletion successful"
+msgstr "Suppression réussie"
+
+msgid "No reservation has been deleted"
+msgstr "Aucune réservation n'a été supprimée"
+
+msgid "Here are the reservations that have not been deleted: "
+msgstr "Voici les réservations qui n'ont pas été supprimées :"
+
+msgid "Unable to delete this reservation"
+msgstr "Impossible de supprimer cette réservation"
+
+msgid "All reservations have been deleted"
+msgstr "Toutes les réservations ont été supprimées"
+
+msgid "the multiple reservations deletion page"
+msgstr "la page de suppression multiple de réservations"
+
+msgid "Physical access"
+msgstr "Accès physique"
+
+msgid "Physical access for \"%room_name%\""
+msgstr "Accès physique pour la salle \"%room_name%\""
+
+msgid "Reservation for %activity_name% in %room_name%"
+msgstr "Réservation pour l'entrée %activity_name% dans la salle %room_name%"
+
+msgid "Back"
+msgstr "Retour"
+
+msgid "No checkbox checked selects all activities"
+msgstr "Aucune case cochée sélectionne toutes les activités"
+
+msgid "Send to"
+msgstr "Envoyer à"
+
+msgid "See"
+msgstr "Voir"
+
+msgid "Options: "
+msgstr "Options :"
+
+msgid "Go to today's date"
+msgstr "Aller à la date d'aujourd'hui"
+
+msgid "Check all"
+msgstr "Tout cocher"
+
+msgid "Uncheck all"
+msgstr "Tout décocher"
+
+msgid "About reservation: "
+msgstr "Concernant la réservation :"
+
+msgid "Activity: "
+msgstr "Activité :"
+
+msgid "Room: "
+msgstr "Salle :"
+
+msgid "1 month = 4 weeks"
+msgstr "1 mois = 4 semaines"
+
+msgid "1 year = 52 weeks"
+msgstr "1 an = 52 semaines"
+
+msgid "Create selected reservations"
+msgstr "Créer les réservations sélectionnées"
+
+msgid "Number of controllers"
+msgstr "Nombre de contrôleurs"
+
+msgid "Number of physical access controllers"
+msgstr "Nombre de contrôleurs d'accès physiques"
+
+msgid "Number of home automation controllers"
+msgstr "Nombre de contrôleurs domotiques"
+
+msgid "Identifier name"
+msgstr "Nom d'identifiant"
+
+msgid "This name already exists"
+msgstr "Ce nom existe déjà"
+
+msgid "This name already exists for physical access control. Please choose another one."
+msgstr "Ce nom existe déjà pour un contrôle d'accès physique. Veuillez en choisir un autre."
+
+msgid "Controller name"
+msgstr "Nom du contrôleur"
+
+msgid "Configured Physical Access Controller"
+msgstr "Contrôleur d'accès physique configuré"
+
+msgid "Configured Home Automation Controller"
+msgstr "Contrôleur domotique configuré"
+
+msgid "You can't give the same identifier name to two different controllers : %controller_name1% and %controller_name2%."
+msgstr "Vous ne pouvez pas donner le même nom identifiant à deux contrôleurs différents : %controller_name1% et %controller_name2%."
+
+msgid "Temporary file creation path"
+msgstr "Chemin du répertoire temporaire de création du fichier"

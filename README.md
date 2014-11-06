@@ -19,7 +19,7 @@ Tempo's is an open source and complete management system of rooms and bookings w
 * You can also create pre-paid cards with a defined number of authorized hours: ideal for non-members!
 * ...
 
-## Physical access and energy (home automation) management
+## Link to physical access control and home automation
 
 Although Tempo's can be used entirely without physical access control, the use of such control allows for an experience as possible:
 

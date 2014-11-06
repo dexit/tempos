@@ -1,0 +1,17 @@
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        Tempos Nuevo
+    #description:  symfony project
+    #keywords:     symfony, project
+    #language:     en
+    #robots:       index, follow
+
+  stylesheets:    [blitzer/jquery-ui-1.8.5.custom.css, main.css, planning.css, farbtastic.css, print: { media: print }]
+
+  javascripts:    [jquery-1.4.2.js, jquery-ui-1.8.5.custom.min.js, jquery.ui.datepicker-fr.js, general.js, menu.js, resume.js, filter-helper.js, legend-helper.js, group-helper.js, room-helper.js, activity-helper.js, zone-helper.js, subscription-helper.js, date-time-helper.js, home-helper.js, reservation-helper.js, reservation-duration-helper.js, farbtastic.js, errors.js, configuration-helper.js, ckb-selection-helper.js]
+
+  has_layout:     on
+  layout:         layout

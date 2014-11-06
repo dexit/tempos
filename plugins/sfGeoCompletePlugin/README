@@ -1,0 +1,20 @@
+sfGeoCompletePlugin provides a widget that has an address input field and an associated auto-complete dropdown that shows suggestions as the user types in a location. 
+
+The suggestions are provided from the Google Maps GeoCoder v3. Since the geocoder runs on the user's browser, this implementation is very lightweight and also will not be limited by the Google's per IP request limits. 
+
+The sfWidgetFormInputGeoComplete can be used to replace all the address fields(street, city, postal code, country) with one "address" field. As the user types in an address, the field shows suggestions. 
+
+With this approach, the address quality increases because for each match Google GeoCoder v3 returns a structured set of results that contain the separate parts of an address, including the latitude and longitude. 
+
+This widget requires the sf_prototype_web_dir to be defined in your project.
+
+To use, publish assets:
+
+    ./symfony plugin:publish-assets
+
+and simply include the widget in your form's configure method:
+
+    $this->widgetSchema['location'] = new sfWidgetFormInputGeoComplete();
+
+
+[Oz Basarir](http://www.ezkode.com "ezkode.com")

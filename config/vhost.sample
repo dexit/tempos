@@ -1,0 +1,14 @@
+<VirtualHost *:80>
+	DocumentRoot "/var/local/tempos/web"
+	DirectoryIndex index.php
+	<Directory "/var/local/tempos/web">
+		AllowOverride All
+		Allow from all
+	</Directory>
+
+	Alias /sf /var/local/tempos/lib/vendor/symfony/data/web/sf
+	<Directory "/var/local/tempos/lib/vendor/symfony/data/web/sf">
+		AllowOverride All
+		Allow from All
+	</Directory>
+</VirtualHost>

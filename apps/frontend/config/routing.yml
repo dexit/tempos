@@ -1,0 +1,11 @@
+# default rules
+login_page:
+  url:   /
+  param: { module: login, action: login }
+
+default_login:
+  url:   /:module
+  param: { action: login }
+
+default:
+  url:   /:module/:action/*

@@ -1,0 +1,35 @@
+# default values
+all:
+  client_name: "<strong>My Name</strong>"
+  has_logo: "logo.png"
+  is_demo: false 
+  default_tempos_configuration_file: "config/tempos.json"
+  default_network_interfaces_file: "/etc/network/interfaces"
+  network_interface: "eth0"
+  .array:
+    restricted_physical_access_controllers: [Virtual]  # Example: [Virtual]
+    restricted_home_automation_controllers: [VirtualHA] # Example: [KNX, VirtualHA, X10, IPX800]
+  upcoming_reservations_count: 5
+  booking_step: 30
+  resume_suffix: '...'
+  resume_max_size: 60
+  max_users_on_userlist: 15
+  max_cards_on_cardlist: 15
+  max_rooms_on_roomlist: 15
+  max_usergroups_on_usergrouplist: 15
+  max_activities_on_activitylist: 15
+  max_features_on_featurelist: 15
+  max_closeperiods_on_closeperiodlist: 15
+  max_reservations_on_reporting: 15
+  max_messages_on_messagelist: 15
+  sf_crypto_captcha:
+    width:                            180                 #width of the captcha
+    height:                           50                  #height of the captcha
+    char_random_color_lvl:            1
+    noise_min_lines:                  0
+    noise_max_lines:                  0
+    noise_min_circles:                  0
+    noise_max_circles:                  0
+    min_chars:                          4
+    max_chars:                          4
+    char_fonts_dir: "/fonts/"

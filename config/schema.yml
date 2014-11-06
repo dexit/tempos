@@ -1,0 +1,220 @@
+propel:
+  _attributes:
+    package: lib.model
+    defaultIdMethod: native
+  Activity:
+    _attributes: { phpName: Activity }
+    id: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    name: { type: VARCHAR, size: '64', required: true }
+    color: { type: VARCHAR, size: '16', required: true, defaultValue: '#ffffff' }
+    minimum_occupation: { type: INTEGER, size: '11', required: true, defaultValue: '1' }
+    maximum_occupation: { type: INTEGER, size: '11', required: true, defaultValue: '2' }
+    minimum_delay: { type: INTEGER, size: '11', required: true, defaultValue: '60' }
+  Activity_has_Feature:
+    _attributes: { phpName: ActivityHasFeature }
+    Activity_id: { type: INTEGER, size: '11', primaryKey: true, required: true, foreignTable: Activity, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    Feature_id: { type: INTEGER, size: '11', primaryKey: true, required: true, foreignTable: Feature, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    _indexes: { Activity_has_Feature_FI_2: [Feature_id] }
+  Card:
+    _attributes: { phpName: Card }
+    id: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    card_number: { type: VARCHAR, size: '32', required: true }
+    pin_code: { type: VARCHAR, size: '16', required: true }
+    is_active: { type: TINYINT, size: '4', required: true, defaultValue: '1' }
+    owner: { type: INTEGER, size: '11', required: false, foreignTable: CardUser, foreignReference: id, onDelete: RESTRICT, onUpdate: RESTRICT }
+    _indexes: { Card_FI_1: [owner] }
+  CardUser:
+    _attributes: { phpName: Carduser }
+    id: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    family_name: { type: VARCHAR, size: '64', required: true }
+    surname: { type: VARCHAR, size: '64', required: true }
+    birthdate: { type: DATE, required: false }
+  ClosePeriod:
+    _attributes: { phpName: Closeperiod }
+    id: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    start: { type: TIMESTAMP, required: true }
+    stop: { type: TIMESTAMP, required: true }
+    Room_id: { type: INTEGER, size: '11', required: true, foreignTable: Room, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    reason: { type: VARCHAR, size: '128', required: true }
+    _indexes: { ClosePeriod_FI_1: [Room_id] }
+  DayPeriod:
+    _attributes: { phpName: Dayperiod }
+    id: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    start: { type: TIME, required: true }
+    stop: { type: TIME, required: true }
+    day_of_week: { type: INTEGER, size: '11', required: true, defaultValue: '0' }
+    Room_id: { type: INTEGER, size: '11', required: true, foreignTable: Room, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    _indexes: { DayPeriod_FI_1: [Room_id] }
+  EnergyAction:
+    _attributes: { phpName: Energyaction }
+    id: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    name: { type: VARCHAR, size: '64', required: true }
+    delayUp: { type: INTEGER, size: '11', required: true, defaultValue: '0' }
+    delayDown: { type: INTEGER, size: '11', required: true, defaultValue: '0' }
+    identifier: { type: VARCHAR, size: '64', required: false }
+    processIdUp: { type: VARCHAR, size: '64', required: false }
+    processIdDown: { type: VARCHAR, size: '64', required: false }
+    start: { type: TIME, required: true }
+    stop: { type: TIME, required: true }
+    status: { type: TINYINT, size: '4', required: true, defaultValue: '0' }
+  Feature:
+    _attributes: { phpName: Feature }
+    id: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    name: { type: VARCHAR, size: '128', required: true }
+    is_exclusive: { type: TINYINT, size: '4', required: true, defaultValue: '1' }
+  FeatureValue:
+    _attributes: { phpName: Featurevalue }
+    id: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    value: { type: VARCHAR, size: '128', required: true }
+    Feature_id: { type: INTEGER, size: '11', required: true, foreignTable: Feature, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    _indexes: { FeatureValue_FI_1: [Feature_id] }
+  Message:
+    _attributes: { phpName: Message }
+    id: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    subject: { type: VARCHAR, size: '256', required: true }
+    text: { type: LONGVARCHAR, required: true }
+    created_at: { type: TIMESTAMP, required: false }
+    recipient_id: { type: INTEGER, size: '11', required: true, foreignTable: User, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    sender: { type: VARCHAR, size: '256', required: true }
+    sender_id: { type: INTEGER, size: '11', required: false, foreignTable: User, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    was_read: { type: TINYINT, size: '4', required: true, defaultValue: '0' }
+    owner_id: { type: INTEGER, size: '11', required: true, foreignTable: User, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    _indexes: { Message_FI_1: [recipient_id], Message_FI_2: [sender_id], Message_FI_3: [owner_id] }
+  Reservation:
+    _attributes: { phpName: Reservation }
+    id: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    RoomProfile_id: { type: INTEGER, size: '11', required: true, foreignTable: RoomProfile, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    Activity_id: { type: INTEGER, size: '11', required: true, foreignTable: Activity, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    date: { type: TIMESTAMP, required: true }
+    duration: { type: INTEGER, size: '11', required: true, defaultValue: '60' }
+    is_activated: { type: TINYINT, size: '4', required: true, defaultValue: '1' }
+    ReservationReason_id: { type: INTEGER, size: '11', required: false, foreignTable: ReservationReason, foreignReference: id, onDelete: RESTRICT, onUpdate: RESTRICT }
+    comment: { type: VARCHAR, size: '256', required: false }
+    UserGroup_id: { type: INTEGER, size: '11', required: false, foreignTable: UserGroup, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    Card_id: { type: INTEGER, size: '11', required: false, foreignTable: Card, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    User_id: { type: INTEGER, size: '11', required: false, foreignTable: User, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    ReservationParent_id: { type: INTEGER, required: false, foreignTable: Reservation, foreignReference: id }
+    members_count: { type: INTEGER, size: '11', required: true, defaultValue: '0' }
+    guests_count: { type: INTEGER, size: '11', required: true, defaultValue: '0' }
+    created_at: { type: TIMESTAMP, required: false }
+    updated_at: { type: TIMESTAMP, required: false }
+    status: { type: INTEGER, size: '11', required: true, defaultValue: '0' }
+    price: { type: INTEGER, size: '11', required: false, defaultValue: '0' }
+    custom_1: { type: VARCHAR, size: '256', required: false }
+    custom_2: { type: VARCHAR, size: '256', required: false }
+    custom_3: { type: VARCHAR, size: '256', required: false }
+    _indexes: { Reservation_FI_1: [RoomProfile_id], Reservation_FI_2: [Activity_id], Reservation_FI_3: [ReservationReason_id], Reservation_FI_4: [UserGroup_id], Reservation_FI_5: [Card_id], Reservation_FI_6: [User_id], Reservation_FI_7: [ReservationParent_id] }
+  ReservationOtherMembers:
+    _attributes: { phpName: Reservationothermembers }
+    Reservation_id: { type: INTEGER, size: '11', required: true, foreignTable: Reservation, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    User_id: { type: INTEGER, size: '11', required: true, foreignTable: User, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    _indexes: { ReservationOtherMembers_FI_1: [Reservation_id], ReservationOtherMembers_FI_2: [User_id] }
+  ReservationReason:
+    _attributes: { phpName: Reservationreason }
+    id: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    Activity_id: { type: INTEGER, size: '11', required: true, foreignTable: Activity, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    name: { type: VARCHAR, size: '64', required: true }
+    _indexes: { ReservationReason_FI_1: [Activity_id] }
+  Role:
+    _attributes: { phpName: Role }
+    id: { type: VARCHAR, size: '32', primaryKey: true, required: true }
+    name: { type: VARCHAR, size: '64', required: true }
+  Room:
+    _attributes: { phpName: Room }
+    id: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    name: { type: VARCHAR, size: '64', required: true }
+    capacity: { type: INTEGER, size: '11', required: false, defaultValue: '1' }
+    address: { type: VARCHAR, size: '256', required: false }
+    description: { type: VARCHAR, size: '256', required: false }
+    is_active: { type: TINYINT, size: '4', required: true, defaultValue: '1' }
+  RoomProfile:
+    _attributes: { phpName: Roomprofile }
+    id: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    name: { type: VARCHAR, size: '256', required: true }
+    physical_access_id: { type: VARCHAR, size: '256', required: true }
+    Room_id: { type: INTEGER, size: '11', required: true, foreignTable: Room, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    _indexes: { RoomProfile_FI_1: [Room_id] }
+  Room_has_Activity:
+    _attributes: { phpName: RoomHasActivity }
+    Room_id: { type: INTEGER, size: '11', primaryKey: true, required: true, foreignTable: Room, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    Activity_id: { type: INTEGER, size: '11', primaryKey: true, required: true, foreignTable: Activity, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    _indexes: { Room_has_Activity_FI_2: [Activity_id] }
+  Room_has_EnergyAction:
+    _attributes: { phpName: RoomHasEnergyaction }
+    Room_id: { type: INTEGER, size: '11', primaryKey: true, required: true, foreignTable: Room, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    EnergyAction_id: { type: INTEGER, size: '11', primaryKey: true, required: true, foreignTable: EnergyAction, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    _indexes: { Room_has_EnergyAction_FI_2: [EnergyAction_id] }
+  Room_has_FeatureValue:
+    _attributes: { phpName: RoomHasFeaturevalue }
+    Room_id: { type: INTEGER, size: '11', primaryKey: true, required: true, foreignTable: Room, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    FeatureValue_id: { type: INTEGER, size: '11', primaryKey: true, required: true, foreignTable: FeatureValue, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    _indexes: { Room_has_FeatureValue_FI_2: [FeatureValue_id] }
+  Subscription:
+    _attributes: { phpName: Subscription }
+    id: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    Activity_id: { type: INTEGER, size: '11', required: true, foreignTable: Activity, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    Zone_id: { type: INTEGER, size: '11', required: true, foreignTable: Zone, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    start: { type: DATE, required: false }
+    stop: { type: DATE, required: false }
+    credit: { type: INTEGER, size: '11', required: false }
+    is_active: { type: TINYINT, size: '4', required: true, defaultValue: '1' }
+    Card_id: { type: INTEGER, size: '11', required: false, foreignTable: Card, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    User_id: { type: INTEGER, size: '11', required: false, foreignTable: User, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    minimum_delay: { type: INTEGER, size: '11', required: true, defaultValue: '12' }
+    maximum_delay: { type: INTEGER, size: '11', required: true, defaultValue: '7' }
+    maximum_duration: { type: INTEGER, size: '11', required: true, defaultValue: '120' }
+    hours_per_week: { type: INTEGER, size: '11', required: true, defaultValue: '4' }
+    UserGroup_id: { type: INTEGER, size: '11', required: false, foreignTable: UserGroup, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    minimum_duration: { type: INTEGER, size: '11', required: true, defaultValue: '60' }
+    _indexes: { Subscription_FI_1: [Activity_id], Subscription_FI_2: [Zone_id], Subscription_FI_3: [Card_id], Subscription_FI_4: [User_id], Subscription_FI_5: [UserGroup_id] }
+  User:
+    _attributes: { phpName: User }
+    id: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    login: { type: VARCHAR, size: '64', required: true }
+    password_hash: { type: VARCHAR, size: '64', required: true }
+    family_name: { type: VARCHAR, size: '64', required: true }
+    surname: { type: VARCHAR, size: '64', required: true }
+    is_active: { type: TINYINT, size: '4', required: true, defaultValue: '1' }
+    card_number: { type: VARCHAR, size: '32', required: true }
+    birthdate: { type: DATE, required: false }
+    is_member: { type: TINYINT, size: '4', required: true, defaultValue: '1' }
+    email_address: { type: VARCHAR, size: '128', required: false }
+    address: { type: VARCHAR, size: '256', required: false }
+    phone_number: { type: VARCHAR, size: '64', required: false }
+    created_at: { type: TIMESTAMP, required: false }
+    photograph: { type: BLOB, required: false }
+  UserGroup:
+    _attributes: { phpName: Usergroup }
+    id: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    name: { type: VARCHAR, size: '64', required: true }
+  UserGroup_has_Activity:
+    _attributes: { phpName: UsergroupHasActivity }
+    UserGroup_id: { type: INTEGER, size: '11', primaryKey: true, required: true, foreignTable: UserGroup, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    Activity_id: { type: INTEGER, size: '11', primaryKey: true, required: true, foreignTable: Activity, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    _indexes: { UserGroup_has_Activity_FI_2: [Activity_id] }
+  UserGroup_has_Chief:
+    _attributes: { phpName: UsergroupHasChief }
+    UserGroup_id: { type: INTEGER, size: '11', primaryKey: true, required: true, foreignTable: UserGroup, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    User_id: { type: INTEGER, size: '11', primaryKey: true, required: true, foreignTable: User, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    _indexes: { UserGroup_has_Chief_FI_2: [User_id] }
+  UserGroup_has_User:
+    _attributes: { phpName: UsergroupHasUser }
+    UserGroup_id: { type: INTEGER, size: '11', primaryKey: true, required: true, foreignTable: UserGroup, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    User_id: { type: INTEGER, size: '11', primaryKey: true, required: true, foreignTable: User, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    _indexes: { UserGroup_has_User_FI_2: [User_id] }
+  User_has_Role:
+    _attributes: { phpName: UserHasRole }
+    User_id: { type: INTEGER, size: '11', primaryKey: true, required: true, foreignTable: User, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    Role_id: { type: VARCHAR, size: '32', primaryKey: true, required: true, foreignTable: Role, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    _indexes: { User_has_Role_FI_2: [Role_id] }
+  Zone:
+    _attributes: { phpName: Zone }
+    id: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    name: { type: VARCHAR, size: '64', required: true }
+    parent_zone: { type: INTEGER, size: '11', required: false, foreignTable: Zone, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    _indexes: { Zone_FI_1: [parent_zone] }
+  Zone_has_Room:
+    _attributes: { phpName: ZoneHasRoom }
+    Zone_id: { type: INTEGER, size: '11', primaryKey: true, required: true, foreignTable: Zone, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    Room_id: { type: INTEGER, size: '11', primaryKey: true, required: true, foreignTable: Room, foreignReference: id, onDelete: CASCADE, onUpdate: RESTRICT }
+    _indexes: { Zone_has_Room_FI_2: [Room_id] }

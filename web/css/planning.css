@@ -1,0 +1,590 @@
+/* Week & month title */
+
+.dayNo,
+.weekNo,
+.monthNo {
+	text-align: center;
+}
+
+.dayNo a,
+.weekNo a,
+.monthNo a {
+	float: left;
+}
+
+.dayNo a + a,
+.weekNo a + a,
+.monthNo a + a {
+	float: right;
+}
+
+div#body div.filter {
+	float: left;
+}
+
+div#body div.filter p {
+	margin: 0;
+}
+
+div#body a.options {
+	float: right;
+	display: inline-block;
+	
+	min-width: 90px;
+	padding: 4px 8px;
+	margin-bottom: 8px;
+	vertical-align: middle;
+	text-align: center;
+	
+	/* Transitions */
+	transition: background .3s;
+		-moz-transition: background .3s;
+		-webkit-transition: background .3s;
+		-o-transition: background .3s;
+		-ms-transition: background .3s;
+	
+	font-size: 90%;
+	background-color: #e6e7e8;
+	
+	border: solid 1px #d8d9da;
+	
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-ms-border-radius:3px;
+	-o-border-radius:3px;
+	border-radius:3px;
+}
+
+div#body a.options:hover {	
+	/* Transitions */
+	transition: background .3s;
+		-moz-transition: background .3s;
+		-webkit-transition: background .3s;
+		-o-transition: background .3s;
+		-ms-transition: background .3s;
+		
+	background-color: white;	
+	background-color: #dddedf;
+	
+	border: solid 1px #c0c1c2;
+	border-bottom: solid 1px #FFF;
+	border-right: solid 1px #FFF;
+	
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-ms-border-radius:3px;
+	-o-border-radius:3px;
+	border-radius:3px;
+}
+
+div#body a.options span {
+	top: -4px;
+	position: relative;
+	margin-left: 3px;
+}
+
+div#body h2 {
+	clear: both;
+}
+
+div#body h2 a span {
+	font-size: 80%;
+}
+
+/* Legend */
+
+div.legend {
+	margin: 8px 0 8px 8px;
+	border: 1px silver solid;
+	background-color: #F0F0F0;
+	position: absolute;
+	right: 40px;
+}
+
+div.legend h3 {
+	margin: 0;
+	padding: 4px;
+	background-color: white;
+	border: none;
+	border-bottom: 1px silver dotted;
+	font-size: 110%;
+}
+
+div.legend dl {
+	margin: 8px;
+}
+
+div.legend dl div.no_border {
+	display: none;
+}
+
+div.legend dl dt {
+	margin: 0;
+	float: left;
+	line-height: 16px;
+	height: 20px;
+}
+
+div.legend dl dt span {
+	width: 16px;
+	height: 16px;
+	border: 1px black solid;
+	display: block;
+}
+
+div.legend dl dd {
+	margin: 0 0 0 24px;
+	padding: 0 0 0 8px;
+	line-height: 20px;
+}
+
+div.legend dl dt span.complete {
+	background-color: #70707A;
+}
+
+div.legend dl dt span.occupied {
+	background-color: #FFC852;
+}
+
+div.legend dl dt span.free {
+	background-color: white;
+}
+
+div.legend dl dt span.past {
+	background-color: #BABABA;
+}
+
+div.legend dl dt span.toofar {
+	background-color: #C0BAFF;
+}
+/* Planning */
+
+div.blue {
+	color: blue;
+}
+
+table.planning {
+	border: 1px silver solid;
+	background-color: white;
+	color: black;
+	width: 100%;
+	font-weight: normal;
+	border-collapse: separate;
+	border-spacing: 0;
+	*border-collapse: collapse; /* IE7 ugly hack */
+}
+
+table.planning .hide {
+	display: none;
+}
+
+table.planning thead {
+	background-color: gray;
+	background-image: url('../images/bg-header.jpg');
+	background-repeat: repeat-x;
+	color: white;
+}
+
+table.planning thead tr th {
+	text-align: center;
+	width: 14%;
+}
+
+table.gantt thead tr th {
+	font-size: 85%;
+	width: auto;
+}
+
+table.gantt thead tr th.first {
+	width: 7em;
+}
+
+table.planning thead tr th.half {
+	color: #999;
+}
+
+table.planning thead tr .empty {
+	width: 2%;
+}
+
+table.planning tbody {
+	font-size: 80%;
+}
+
+table.planning tbody tr th {
+	width: 1%;
+	height: 16px;
+	background-color: #FAF7F0;
+	margin: 0;
+	padding: 0 8px 0 8px;
+	border-bottom: 1px silver solid;
+	border-right: 1px silver solid;
+	font-weight: normal;
+	text-align: right;
+	vertical-align: top;
+}
+
+table.gantt tbody tr th {
+	line-height: 24px;
+	vertical-align: center;
+	min-width: 10em;
+	text-align: left;
+}
+
+table.planning tbody tr th.hour {
+	border-bottom: none;
+}
+
+table.planning tbody tr th.half {
+	height: 16px;
+}
+
+table.planning tbody tr td {
+	text-align: center;
+	height: 16px;
+	padding: 0;
+	margin: 0;
+	border-bottom: 1px #E7E7E7 solid;
+	border-left: 1px #E7E7E7 solid;
+	border-right: 1px #E7E7E7 solid;
+	overflow: hidden;
+}
+
+table.month tbody tr td {
+	vertical-align: top;
+	padding: 0;
+}
+
+table.month tbody tr td h4 {
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px silver solid;
+	background-color: white;
+}
+
+table.month tbody tr td.empty h4 {
+	background-color: #E0E0E0;
+}
+
+table.month tbody tr td p {
+	vertical-align: center;
+	margin: 0;
+	min-height: 48px;
+}
+
+table.planning tbody tr td.empty {
+	background-color: #F0F0F0;
+}
+
+table.planning tbody tr td.hour {
+	border-bottom: 1px #E7E7E7 dotted;
+}
+
+table.planning tbody tr td.now {
+	background-color: #EFFFE7;
+}
+
+table.planning tbody tr td.complete {
+	background-color: #70707A;
+	border-bottom: 1px #606060 dotted;
+	border-left: 1px #606060 solid;
+	border-right: 1px #606060 solid;
+}
+
+table.planning tbody tr td.occupied {
+	background-color: #FFC852;
+	border-bottom: 1px #FFD872 dotted;
+	border-left: 1px #FFD872 solid;
+	border-right: 1px #FFD872 solid;
+}
+
+table.planning tbody tr td.free {
+	background-color: white;
+	border-bottom: 1px #E0E0E0 dotted;
+	border-left: 1px silver solid;
+	border-right: 1px silver solid;
+}
+
+table.planning tbody tr td.past {
+	background-color: #DADADA;
+	border-bottom: 1px #C0C0C0 dotted;
+	border-left: 1px #C0C0C0 solid;
+	border-right: 1px #C0C0C0 solid;
+}
+
+table.planning tbody tr td.toofar {
+	background-color: #C0BAFF;
+	border-bottom: 1px #A0AADF solid;
+	border-left: 1px #A0AADF solid;
+	border-right: 1px #A0AADF solid;
+}
+
+table.planning tbody tr td.closed {
+	background-color: #DADADA;
+	border-bottom: 1px #D0D0D0 solid;
+	border-left: 1px #D0D0D0 solid;
+	border-right: 1px #D0D0D0 solid;
+}
+
+table.planning tbody tr:hover td {
+	background-color: #FFFFE0;
+}
+
+table.planning tbody tr:hover th {
+	background-color: #F0F030;
+}
+
+table.planning tbody tr:hover td.empty {
+	background-color: #F0F0F0;
+}
+
+table.planning tbody tr:hover td.complete {
+	background-color: #808080;
+}
+
+table.planning tbody tr:hover td.occupied {
+	background-color: #FFD872;
+}
+
+table.planning tbody tr:hover td.free {
+	background-color: #F0F0F0;
+}
+
+table.planning tbody tr:hover td.past {
+	background-color: #C0C0C0;
+}
+
+table.planning tbody tr:hover td.toofar {
+	background-color: #F0EAF0;
+}
+
+table.planning tbody tr:hover td.closed {
+	background-color: #D0D0DA;
+}
+
+table.planning tbody tr td:hover {
+	background-color: #FFFFA0;
+}
+
+table.planning tbody tr td.occupied:hover {
+	background-color: #FFE892;
+}
+
+table.planning tbody tr td.free:hover {
+	background-color: #FFFFC0;
+}
+
+table.planning tbody tr td a {
+	display: block;
+	text-align: center;
+	width: 100%;
+	visibility: hidden;
+}
+
+table.month tbody tr td a {
+	line-height: 48px;
+}
+
+table.planning tbody tr td:hover a {
+	visibility: visible;
+}
+
+table.planning tbody tr td span.hidden {
+	visibility: hidden;
+}
+/* Periods */
+
+table.planning tbody tr td.period {
+	height: auto;
+	background: url(../images/arrow-down.png) repeat-y 50% 100%;
+	background-color: #E0E0FF;
+	border: 2px #C0C0FF solid;
+	color: gray;
+	vertical-align: top;
+	padding: 0;
+	/* cursor: move; */
+}
+
+table.planning tbody tr td.period:hover {
+	background-color: #EFEFFF;
+	border: 2px #E0E0FF solid;
+}
+
+table.planning tbody tr td.period div {
+	font-weight: normal;
+	border-bottom: 1px #C0C0FF solid;
+	background-color: #EFEFFF;
+	margin: 0;
+	padding: 2px;
+	line-height: 16px;
+	min-height: 16px;
+}
+
+table.planning tbody tr td.period div + div {
+	display: none;
+}
+
+table.planning tbody tr td.period:hover div + div {
+	display: block;
+}
+
+table.planning tbody tr td.period a {
+	display: inline;
+	width: auto;
+}
+
+table.planning tbody tr td.period:hover div {
+	background-color: #F7F7FF;
+	border-bottom: 1px #E0E0FF solid;
+}
+
+/* Reservations */
+
+table.planning tbody tr td.reservation,
+div.reservation {
+	height: auto;
+	background: white url(../images/clock.png) no-repeat 50% 100%;
+	border: 2px #C0C0C0 solid;
+	color: gray;
+	vertical-align: top;
+	padding: 0;
+	/* cursor: move; */
+}
+
+table.planning tbody tr td.reservation:hover {
+	border: 2px #E0E0E0 solid;
+}
+
+table.planning tbody tr td.reservation div,
+table.planning tbody tr td.reservation h1,
+div.reservation div,
+div.reservation h1 {
+	font-weight: bold;
+	border-bottom: 1px #C0C0C0 dotted;
+	background: url(../images/semi-transparent.png) repeat 0 0;
+	margin: 0;
+	padding: 2px;
+	line-height: 16px;
+	min-height: 16px;
+	vertical-align: top;
+}
+
+table.planning tbody tr td.reservation * + div {
+	display: none;
+}
+
+table.planning tbody tr td.reservation:hover * + div {
+	display: block;
+}
+
+table.planning tbody tr td.reservation a {
+	display: inline;
+	width: auto;
+}
+
+table.planning tbody tr td.reservation dl {
+	padding: 8px 4px;
+	margin: 0;
+	text-align: left;
+}
+
+table.planning tbody tr td.reservation dl dt {
+	padding: 0;
+	margin: 4px 0;
+	font-weight: bold;
+	display: none;
+}
+
+table.planning tbody tr td.reservation dl dd.status {
+	font-style: italic;
+	display: none;
+}
+
+table.planning tbody tr td.reservation:hover dl dt {
+	display: block;
+}
+
+table.planning tbody tr td.reservation:hover dl dd.status {
+	display: block;
+}
+
+table.planning tbody tr td.reservation dl dd {
+	display: block;
+	padding: 0;
+	margin: 0;
+	background: url(../images/semi-transparent.png) repeat 0 0;
+	text-align: center;
+}
+
+table.planning tbody tr td.reservation.past,
+table.planning tbody tr td.reservation.toofar,
+table.planning tbody tr td.reservation.closed {
+	background-color: #F0F0F0;
+}
+
+table.planning tbody tr td.past dl dd {
+	background: inherit;
+}
+
+table.planning tbody tr td.toofar dl dd {
+	background: inherit;
+}
+
+/* Links */
+
+table.planning tbody tr a.action {
+	float: right;
+}
+
+table.planning tbody tr a:hover {
+	border: none;
+	text-decoration: none;
+}
+
+table.planning tbody tr a img {
+	border: none;
+}
+
+/* Status */
+
+.idle {
+	color: green;
+}
+
+.synchronized {
+	color: navy;
+}
+
+.blocked {
+	color: red;
+}
+
+.forgotten {
+	color: purple;
+}
+
+/* Selection and drag stuff */
+
+table.planning tbody tr td span.autohide {
+	display: none;
+	color: gray;
+	font-style: italic;
+}
+
+table.planning tbody tr td.tselected span.autohide {
+	display: inline;
+}
+
+table.gantt tbody tr td.tselected span.autohide {
+	display: none;
+}
+
+.tselection {
+	background-color: #FFD0D0 !important;
+}
+
+/* Cache ce qui doit être affiché uniquement lors de l'impression */
+
+.print_only {
+	display: none;
+}

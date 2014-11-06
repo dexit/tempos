@@ -1,0 +1,238 @@
+/* Afficher la page en mode paysage lors de l'impression */
+
+@page {
+	size: landscape;
+}
+
+/* Cache le contenu de ces classes */
+
+div#header, div#footer, div#topbar, div#menubar, 
+table.planning tbody tr td span.hidden,
+table.planning .hide, /* classe qui se trouve également dans le CSS planning.css */
+.no_print, /* classe spécifique au CSS print.css */ 
+table.month tbody tr td a,
+table.planning tbody tr td.tselectable,
+.dayNo a,
+.dayNo a + a,
+.weekNo a,
+.weekNo a + a,
+.monthNo a,
+.monthNo a + a,
+div.legend,
+div.legend h3,
+div.legend dl,
+div.legend dl dd,
+div.legend dl dt,
+div.legend dl dt span,
+p,
+p a,
+p span,
+p span a,
+div.filter,
+table.planning tbody tr td.reservation h1,
+table.planning tbody tr td.reservation h1 a,
+table.planning tbody tr td.reservation h1 a img,
+table.planning tbody tr td.reservation a,
+table.planning tbody tr td.reservation a img,
+table.planning tbody tr td.reservation span,
+table.planning tbody tr td.reservation span a,
+table.planning tbody tr td.reservation dl dd div span
+{
+	display: none;
+}
+
+/* Taille des titres */
+
+h1, h2, h3 {
+	font-size: 110%;
+}
+
+/* Taille et position de la légende */
+
+h2 span.print_only {
+	float: right;
+	font-size: 70%;
+}
+
+/* Eléments affichés uniquement lors de l'impression */
+
+table.planning tbody tr td.reservation h1.print_only,
+table.planning tbody tr td.reservation dd.status span {
+	display: inline;
+}
+
+/* Evite un découpage dans une réservation lors de l'impression
+Note : Firefox, Chrome, and Safari do not support the property values "avoid", "left", or "right".*/
+
+table.planning tbody tr td.reservation div,
+table.planning tbody tr td.reservation span,
+table.planning tbody tr td.reservation dl,
+table.planning tbody tr td.reservation dd,
+table.planning tbody tr td.reservation dt {
+	page-break-before: avoid;
+	page-break-after: avoid;
+}
+
+/* classe list */
+
+table.list {
+	border: 1px silver solid;
+	border-collapse: none;
+	border-spacing: 0px;
+}
+
+table.list thead tr {
+	border-bottom: 2px black solid;
+}
+
+table.list tbody tr.even {
+}
+
+table.list tbody tr.odd {
+	background-color: silver;
+}
+
+/* Données par défaut pour un tableau */
+
+table {
+	border: 2px black solid;
+	width: 100%;
+	font-weight: normal;
+	border-spacing: 0;
+	border-collapse: separate;
+}
+
+/* tbody */
+
+table.print_only tbody tr th,
+table.planning tbody tr th {
+	width: auto;
+	height: 16px;
+	margin: 0;
+	padding: 8px 0 8px 0;
+	border: 2px black solid;
+	font-weight: normal;
+	text-align: center;
+	background-color: silver;
+	vertical-align: top;
+}
+
+table.planning tbody tr th {
+	border-top: none;
+}
+
+table.planning tbody tr th.hour {
+	border-bottom: none;
+}
+
+table.planning tbody {
+        font-size: 80%;
+}
+
+table.planning tbody tr th a {
+	text-decoration: none;
+	color: teal;
+	font-weight: bold;
+}
+
+table.planning tbody tr td {
+        text-align: center;
+        height: 16px;
+        padding: 0;
+        margin: 0;
+        border: 1px silver solid;
+}
+
+/* gantt */
+
+table.gantt thead tr th {
+        font-size: 85%;
+	width: auto;
+}
+
+table.gantt thead tr th.first {
+}
+
+table.gantt tbody tr th {
+        line-height: 24px;
+        vertical-align: center;
+        min-width: 10em;
+        text-align: left;
+}
+
+table.gantt tbody tr td.tselected span.autohide {
+        display: none;
+}
+
+/* Première ligne */
+
+table.planning thead tr th {
+	text-align: center;
+	border: 2px black solid;
+	width: 1%;
+}
+
+/* Couleurs des titres dans les cellules d'en-tête (horaires, jours, etc) */
+
+table.color thead tr th {
+        color: navy;
+}
+
+table.color thead tr th.first {
+        color: black;
+}
+
+table.color thead tr th.half {
+        color: #0191C8;
+}
+
+/* Couleurs des cellules (bordures + police d'écriture) des tableaux de réservations */
+
+table.planning tbody tr td.reservation {
+	border: 2px black solid;
+}
+
+table.color tbody tr td.complete,
+div.complete,
+span.complete {
+	color: red;
+	border: 1px red solid;
+	padding: 1px;
+}
+
+table.color tbody tr td.occupied,
+div.occupied,
+span.occupied {
+	color: #FE7F1D;
+	border: 1px #FE7F1D solid;
+	padding: 1px;
+}
+
+table.color tbody tr td.free,
+div.free,
+span.free {
+	color: green;
+	border: 1px green solid;
+	padding: 1px;
+}
+
+table.color tbody tr td.past,
+div.past,
+span.past {
+	color: red;
+	border: 1px red solid;
+	padding: 1px;
+}
+
+table.color tbody tr td.toofar,
+div.toofar,
+span.toofar {
+	color: navy;
+	border: 1px navy solid;
+	padding: 1px;
+}
+
+div.no_border,
+span.no_border {
+	border: none;
+}
