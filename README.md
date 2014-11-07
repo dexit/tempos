@@ -37,4 +37,8 @@ Please report issues [here](https://github.com/islog/tempos/issues).
 
 ## License
 
-Not defined yet.
+This project is released under the GNU Affero GPLv3 license.
+A copy of the license can be found in the root folder.
+
+![alt text][logo]
+[logo]: https://raw.githubusercontent.com/islog/leosac/master/rc/AGPLv3.png  "AGPL Logo"
