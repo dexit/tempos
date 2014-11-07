@@ -19,7 +19,26 @@ Tempo's is an open source and complete management system of rooms and bookings w
 * You can also create pre-paid cards with a defined number of authorized hours: ideal for non-members!
 * ...
 
-## Link to physical access control and home automation
+## Complete support of physical access controllers and home automation
+
+Tempo's is already compliant with the following physical access controllers:
+* [Amadeus](http://www.dds-security.com/)
+* [E-data](http://www.kaba-ilco.com/)
+* [Eden](http://www.eden-innovations.com/)
+* [Pegasys 3000](http://normbau.allegion.com/)
+* [Til Technologies](http://www.til-technologies.fr/)
+* [Vauban](http://www.vauban-systems.fr/)
+
+And following home automation:
+* [Amadeus](http://www.dds-security.com/)
+* [KNX](http://www.hager.fr/)
+* X10
+* [IPX800](http://gce-electronics.com/)
+
+***
+**Unfortunately, we are not allowed to provide such implementations as open-source.
+Please [contact us](http://www.islog.com) directly if you're interested by one of them (or if you want a specific development for a new one).**
+***
 
 Although Tempo's can be used entirely without physical access control, the use of such control allows for an experience as possible:
 
