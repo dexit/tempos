@@ -1,0 +1,27 @@
+# Options used by GitHub
+# --pygments --no-lsi --safe
+highlighter: pygments
+lsi: false
+safe: true
+
+# Exclude project-specific and source files when generating the site.
+exclude: 
+    - bootstrap/
+
+################################################################################
+# Global variables used site-wide
+################################################################################
+
+project:
+  name: Tempo's
+  description: Open Source Door Management System
+  download: https://github.com/islog/tempos/releases
+  fork: https://github.com/islog/tempos
+
+author:
+  name: Arnaud Humilier
+  site: https://github.com/arnaud-islog
+  email: ah@islog.com
+  github: arnaud-islog
+
+navbar: false
