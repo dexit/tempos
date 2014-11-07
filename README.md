@@ -2,7 +2,7 @@
 
 ## What is Tempo's?
 
-Have you ever wanted to easily manage access to your rooms? With Tempo's, your wish come true!.
+Have you ever wanted to easily book and give access to your rooms? With Tempo's, your wish come true!.
 
 Whether you need to manage meeting rooms, gyms or any other type of local, Tempo's is for you. Also well suited to companies and associations and administrations, Tempo's supports many use cases.
 
